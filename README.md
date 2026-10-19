@@ -80,7 +80,22 @@ Every artisan in the directory is a genuine, documented national master or Padma
 - **Frontend:** React 18, Vite 6, Tailwind CSS (Custom Heritage Palette), Lucide Icons, React Router 6.
 - **Backend:** Node.js, Express.js REST API with CORS.
 - **Database & Persistence:** File-based JSON state storage with dual-layer browser LocalStorage fallback for offline resilience.
-- **Design Tokens:** Heritage Ochre, Terracotta, Indigo, Kohl, Marigold, and Sandstone.
+- **Audio Engine:** Pure Web Audio API ambient loom shuttle & bronze chime soundscape synthesizer.
+- **Design Tokens:** Festive Indian Jewel Tones (Peacock Indigo, Crimson, Marigold, Emerald, Gold Amber, Terracotta).
+
+---
+
+## ⚡ Interactive Masterpiece Features
+
+1. **Direct Commission & Broker Markup Savings Calculator (`CraftCalculatorWidget.jsx`):**
+   - Interactive craft category selector (Pashmina, Ajrakh, Bidriware, Madhubani, Dhokra, Blue Pottery).
+   - Real-time scale and production duration sliders with instant calculation of direct master payout vs. conventional 35%–50% commercial middleman markups saved.
+2. **Master Artisan Side-by-Side Comparison Matrix (`ArtisanCompareModal.jsx`):**
+   - Compare up to 3 master artisans simultaneously across years of experience, GI certificates, national awards, workshop clusters, and direct contact avenues.
+3. **Pure Web Audio API Handloom Shuttle & Temple Chime Soundscape (`SoundscapePlayer.jsx`):**
+   - Offline, zero-dependency procedural audio engine simulating the rhythmic cadence of a handloom shuttle and meditative temple chimes.
+4. **Instant 1-Click Craft Focus Filter Strip (`ArtisansPage.jsx`):**
+   - Fast filtering across Textiles, Pottery, Metalcraft, Folk Painting, Woodcraft, and Jewelry.
 
 ---
 
