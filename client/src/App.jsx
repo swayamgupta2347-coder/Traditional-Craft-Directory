@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { DataProvider } from './context/DataContext';
 
 import Navbar from './components/Navbar';
@@ -33,7 +33,7 @@ function ScrollToTop() {
 export default function App() {
   return (
     <DataProvider>
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <div className="min-h-screen flex flex-col bg-[#FAF7F2] text-[#1E232A] selection:bg-[#C85A32] selection:text-white font-sans">
           <Navbar />
@@ -59,7 +59,7 @@ export default function App() {
           <SoundscapePlayer />
           <ToastNotification />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </DataProvider>
   );
 }
