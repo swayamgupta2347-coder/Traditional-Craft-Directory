@@ -1,0 +1,13 @@
+# Dependencies
+node_modules
+client/node_modules
+server/node_modules
+
+# Build artifacts (uncomment if deploying with CI/CD)
+# client/dist
+
+# OS & Logs
+.DS_Store
+*.log
+.env
+.env.local

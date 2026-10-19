@@ -1,0 +1,40 @@
+[
+  {
+    "id": "nom-201",
+    "artisanName": "Keshav Lal Suthar",
+    "craftCategory": "Woodcraft",
+    "craftSubtype": "Kavad Portable Shrines of Bassi",
+    "state": "Rajasthan",
+    "district": "Chittorgarh",
+    "village": "Bassi",
+    "experienceYears": 28,
+    "phone": "+91 94148 23190",
+    "email": "keshav.kavad@gmail.com",
+    "workshopAddress": "Suthar Mohalla, Post Bassi, Chittorgarh, Rajasthan",
+    "techniqueDescription": "Handcrafted folding wooden shrines painted with mineral colors, with unfolding doors used by wandering Bhat storytellers to narrate epics.",
+    "nominatorName": "Pravin Sharma (Field Officer)",
+    "nominatorRelation": "District Craft Mobilizer",
+    "verificationStatus": "Pending Review",
+    "submittedAt": "2024-03-12T11:20:00Z",
+    "evidenceDocuments": ["Pehchan Artisan ID Card No: RJ-CHI-4012", "Photographs of Bassi Kavad Shrine Workshop"]
+  },
+  {
+    "id": "nom-202",
+    "artisanName": "Kaveri Bai Sonkar",
+    "craftCategory": "Textiles & Weaving",
+    "craftSubtype": "Gond Tribal Bell Metal & Beadwork",
+    "state": "Madhya Pradesh",
+    "district": "Dindori",
+    "village": "Patangarh",
+    "experienceYears": 22,
+    "phone": "+91 94071 89321",
+    "email": "kaveri.gondart@gmail.com",
+    "workshopAddress": "Gram Patangarh, Tehsil Karanjia, Dindori, MP",
+    "techniqueDescription": "Traditional Pardhan Gond ceremonial bead jewelry and bronze bell ornaments tied to clan songs.",
+    "nominatorName": "Madhya Pradesh Tribal Welfare Collective",
+    "nominatorRelation": "NGO Partner",
+    "verificationStatus": "Under Verification",
+    "submittedAt": "2024-03-14T09:15:00Z",
+    "evidenceDocuments": ["TRIFED Tribal Artisan Certificate #MP-TRI-8812"]
+  }
+]

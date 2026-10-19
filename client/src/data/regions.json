@@ -1,0 +1,168 @@
+[
+  {
+    "id": "reg-gujarat",
+    "state": "Gujarat",
+    "zone": "Western India",
+    "craftHubs": [
+      { "name": "Kutch (Nirona, Ajrakhpur, Bhuj)", "crafts": ["Rogan Art", "Ajrakh Block Print", "Kutchi Embroidery"] },
+      { "name": "Patan", "crafts": ["Double-Ikat Patan Patola"] },
+      { "name": "Surat & Ahmedabad", "crafts": ["Zari Weaving", "Bandhani Tie-Dye"] }
+    ],
+    "highlights": "Renowned for pastoral desert crafts, natural dyes, mirror embroidery, and the sole surviving Rogan art lineage.",
+    "artisanCount": 4200,
+    "registeredGITags": 18,
+    "heroImage": "https://images.unsplash.com/photo-1606744824163-985d376605aa?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-rajasthan",
+    "state": "Rajasthan",
+    "zone": "Northern India",
+    "craftHubs": [
+      { "name": "Jaipur (Pink City & Kot Jewar)", "crafts": ["Jaipur Blue Pottery", "Court Miniature Painting", "Sanganeri Block Print", "Kundan Meenakari"] },
+      { "name": "Molela & Nathdwara", "crafts": ["Molela Votive Terracotta", "Pichwai Temple Paintings"] },
+      { "name": "Jodhpur & Barmer", "crafts": ["Leather Mojaris", "Dhurrie Weaving", "Applique Work"] }
+    ],
+    "highlights": "The royal artisan epicentre of India, distinguished for palace crafts, non-clay blue ceramics, and vibrant desert textiles.",
+    "artisanCount": 9400,
+    "registeredGITags": 24,
+    "heroImage": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-bihar",
+    "state": "Bihar",
+    "zone": "Eastern India",
+    "craftHubs": [
+      { "name": "Madhubani (Jitwarpur, Ranti)", "crafts": ["Mithila / Madhubani Painting"] },
+      { "name": "Bhagalpur", "crafts": ["Tussar Silk Handloom (Silk City)"] },
+      { "name": "Sikki Grass Belt", "crafts": ["Sikki Golden Grass Craft"] }
+    ],
+    "highlights": "Birthplace of ancient ritual wall paintings and golden wild Tussar silks, celebrated for female artist leadership.",
+    "artisanCount": 3800,
+    "registeredGITags": 15,
+    "heroImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-karnataka",
+    "state": "Karnataka",
+    "zone": "Southern India",
+    "craftHubs": [
+      { "name": "Bidar", "crafts": ["Bidriware Silver Inlay Metal Craft"] },
+      { "name": "Channapatna", "crafts": ["Channapatna Wooden Toys & Natural Lacquer"] },
+      { "name": "Mysuru & Ilkal", "crafts": ["Mysore Silk", "Ilkal Sarees", "Rosewood Inlay"] }
+    ],
+    "highlights": "Home to India's first GI tag (Channapatna Toys) and the 600-year-old Bahmani silver metal inlay tradition.",
+    "artisanCount": 6100,
+    "registeredGITags": 42,
+    "heroImage": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-jk",
+    "state": "Jammu and Kashmir",
+    "zone": "Northern India",
+    "craftHubs": [
+      { "name": "Srinagar (Downtown & Safa Kadal)", "crafts": ["Pashmina & Kani Shawls", "Walnut Wood Carving", "Paper Mache", "Sozni Embroidery"] },
+      { "name": "Kanihama (Budgam)", "crafts": ["Kani Shawl Weaving with Tujis"] }
+    ],
+    "highlights": "The crown of Himalayan fine crafts, famed for ultra-fine Pashmina cashmere, Talim coded weaving, and wild walnut carving.",
+    "artisanCount": 5400,
+    "registeredGITags": 11,
+    "heroImage": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-odisha",
+    "state": "Odisha",
+    "zone": "Eastern India",
+    "craftHubs": [
+      { "name": "Raghurajpur (Puri)", "crafts": ["Odisha Pattachitra", "Palm Leaf Etching (Talapatra)", "Tussar Painting"] },
+      { "name": "Pipli", "crafts": ["Pipli Applique Work (Chandua)"] },
+      { "name": "Sambalpur & Bargarh", "crafts": ["Sambalpuri Bandha Ikat Handloom"] }
+    ],
+    "highlights": "India's premier heritage crafts village where centuries of Jagannath temple sacred devotion are immortalized in palm leaf art.",
+    "artisanCount": 7300,
+    "registeredGITags": 19,
+    "heroImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-up",
+    "state": "Uttar Pradesh",
+    "zone": "Northern India",
+    "craftHubs": [
+      { "name": "Varanasi", "crafts": ["Banarasi Kadwa Brocades & Kinkhwab", "Wooden Lacquerware"] },
+      { "name": "Saharanpur", "crafts": ["Saharanpur Wood Carving & Tarkashi Brass Inlay"] },
+      { "name": "Lucknow", "crafts": ["Chikan Embroidery & Zardozi"] },
+      { "name": "Moradabad", "crafts": ["Brassware & Metal Engraving"] }
+    ],
+    "highlights": "India's handloom and metallurgy powerhouse along the holy Ganges, producing iconic bridal brocades and carved hardwoods.",
+    "artisanCount": 14200,
+    "registeredGITags": 48,
+    "heroImage": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-tn",
+    "state": "Tamil Nadu",
+    "zone": "Southern India",
+    "craftHubs": [
+      { "name": "Thanjavur & Swamimalai", "crafts": ["Tanjore Gold Leaf Painting", "Swamimalai Chola Bronze Casting"] },
+      { "name": "Kanchipuram", "crafts": ["Kanchipuram Silk Sarees (Korvai)"] },
+      { "name": "Nilgiris (Ooty)", "crafts": ["Toda Tribal Embroidery (Pukhoor)"] }
+    ],
+    "highlights": "Ancient temple traditions spanning Chola bronze metallurgy, 22-carat gold iconography, and Nilgiri indigenous tribal needlework.",
+    "artisanCount": 8900,
+    "registeredGITags": 58,
+    "heroImage": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-wb",
+    "state": "West Bengal",
+    "zone": "Eastern India",
+    "craftHubs": [
+      { "name": "Bankura (Bikna)", "crafts": ["Dokra Metal Casting", "Bankura Terracotta Horses"] },
+      { "name": "Santiniketan & Birbhum", "crafts": ["Kantha Stitch Embroidery", "Batik"] },
+      { "name": "Shantipur & Phulia", "crafts": ["Shantipur Fine Cotton Jamdani"] }
+    ],
+    "highlights": "Living repository of 4,000-year Harappan lost-wax metallurgy, terracotta architecture, and delicate Kantha storytelling.",
+    "artisanCount": 6800,
+    "registeredGITags": 22,
+    "heroImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-chhattisgarh",
+    "state": "Chhattisgarh",
+    "zone": "Central India",
+    "craftHubs": [
+      { "name": "Bastar (Kondagaon, Jagdalpur)", "crafts": ["Bastar Wrought Iron (Loha Shilp)", "Bastar Dokra", "Wood Carving"] }
+    ],
+    "highlights": "Deep animist forest culture translating recycled scrap iron into slender wildlife sculptures without electrical welds.",
+    "artisanCount": 3100,
+    "registeredGITags": 7,
+    "heroImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-telangana",
+    "state": "Telangana",
+    "zone": "Southern India",
+    "craftHubs": [
+      { "name": "Bhoodan Pochampally", "crafts": ["Pochampally Double-Ikat Silk Weaving"] },
+      { "name": "Gadwal & Narayanpet", "crafts": ["Gadwal Silk Sarees", "Telia Rumal"] },
+      { "name": "Pembarthi", "crafts": ["Pembarthi Brass Metal Craft"] }
+    ],
+    "highlights": "Pioneers of geometric double-ikat tie-and-dye weaving on pit looms, recognized internationally for weaving precision.",
+    "artisanCount": 5100,
+    "registeredGITags": 16,
+    "heroImage": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "reg-mp",
+    "state": "Madhya Pradesh",
+    "zone": "Central India",
+    "craftHubs": [
+      { "name": "Maheshwar", "crafts": ["Maheshwari Silk-Cotton Weaving"] },
+      { "name": "Chanderi", "crafts": ["Chanderi Gossamer Silk Weaving"] },
+      { "name": "Bagh", "crafts": ["Bagh Block Print"] }
+    ],
+    "highlights": "Historic royal weaving centers revived by Queen Ahilyabai Holkar with reversible Bugdi borders and Narmada river heritage.",
+    "artisanCount": 4600,
+    "registeredGITags": 19,
+    "heroImage": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
+  }
+]
