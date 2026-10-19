@@ -10,9 +10,21 @@
     "village": "Nirona",
     "experienceYears": 44,
     "awards": [
-      { "name": "Padma Shri", "year": 2019, "authority": "President of India" },
-      { "name": "National Award", "year": 1997, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "State Master Craftsperson", "year": 1988, "authority": "Govet. of Gujarat" }
+      {
+        "name": "Padma Shri",
+        "year": 2019,
+        "authority": "President of India"
+      },
+      {
+        "name": "National Award",
+        "year": 1997,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "State Master Craftsperson",
+        "year": 1988,
+        "authority": "Govet. of Gujarat"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Development Commissioner (Handicrafts), Ministry of Textiles",
@@ -24,14 +36,23 @@
     },
     "bio": "Padma Shri Abdul Gafur Khatri is the patriarch of the sole surviving family in India preserving the 400-year-old Persian-origin Rogan art. When the craft faced near-total extinction with only six surviving practitioners, Abdul Gafur broke centuries-old male-only tradition to train more than 300 village women, ensuring community survival. In 2014, Prime Minister Narendra Modi famously presented two of his signature Tree of Life Rogan paintings to US President Barack Obama.",
     "techniques": "Boiled castor oil heated continuously for 12 hours until it forms a thick jelly residue called 'Rogan'. This base is emulsified with natural earth minerals and stone pigments. Using a 6-inch blunt brass stylus ('Kalam') held in the right hand, the artisan draws thread-like paint loops onto stretched silk or khadi cotton balanced on the left palm—without any preparatory sketches. The fabric is then folded in half to create mirror-image symmetry.",
-    "materials": ["Boiled Castor Oil (Ricinus communis)", "Natural Earth Pigments", "Ahir Silk", "Mulberry Tussar", "Fine Khadi"],
+    "materials": [
+      "Boiled Castor Oil (Ricinus communis)",
+      "Natural Earth Pigments",
+      "Ahir Silk",
+      "Mulberry Tussar",
+      "Fine Khadi"
+    ],
     "workshop": {
       "name": "Khatri Rogan Art Heritage Studio",
       "address": "Opposite Panchayat Bhavan, Village Nirona, Taluka Nakhatrana",
       "district": "Kutch",
       "state": "Gujarat",
       "pincode": "370975",
-      "coordinates": { "lat": 23.4072, "lng": 69.5841 },
+      "coordinates": {
+        "lat": 23.4072,
+        "lng": 69.5841
+      },
       "visitingHours": "09:00 AM - 06:30 PM (Mon - Sun)",
       "workshopVisitsAllowed": true
     },
@@ -41,8 +62,8 @@
       "email": "roganartkutch@gmail.com",
       "website": "https://roganartnirona.com"
     },
-    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
-    "coverImage": "https://images.unsplash.com/photo-1606744824163-985d376605aa?auto=format&fit=crop&w=1200&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rogan-art-Tree-of-Life-Abdul-Gafur-Khatri-29-12-2013.jpg/1000px-Rogan-art-Tree-of-Life-Abdul-Gafur-Khatri-29-12-2013.jpg",
     "gallery": [
       {
         "url": "https://images.unsplash.com/photo-1606744824163-985d376605aa?auto=format&fit=crop&w=800&q=80",
@@ -63,7 +84,12 @@
         "description": "Drawing freehand loops of sticky castor paint on silk using the blunt metal stylus"
       }
     ],
-    "productsSummary": ["Tree of Life Silk Wall Hangings", "Rogan Stoles", "Framed Heritage Art", "Bridal Ghagra Borders"],
+    "productsSummary": [
+      "Tree of Life Silk Wall Hangings",
+      "Rogan Stoles",
+      "Framed Heritage Art",
+      "Bridal Ghagra Borders"
+    ],
     "priceRange": "₹2,500 - ₹1,50,000",
     "customOrders": true,
     "viewCount": 3842,
@@ -80,9 +106,21 @@
     "village": "Jitwarpur",
     "experienceYears": 58,
     "awards": [
-      { "name": "Padma Shri", "year": 2017, "authority": "President of India" },
-      { "name": "National Award", "year": 1984, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Cézanne Fellowship", "year": 1989, "authority": "French Cultural Ministry, Paris" }
+      {
+        "name": "Padma Shri",
+        "year": 2017,
+        "authority": "President of India"
+      },
+      {
+        "name": "National Award",
+        "year": 1984,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Cézanne Fellowship",
+        "year": 1989,
+        "authority": "French Cultural Ministry, Paris"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Upendra Maharathi Shilp Anusandhan Sansthan & Ministry of Textiles",
@@ -94,14 +132,23 @@
     },
     "bio": "Baua Devi is one of the earliest trailblazers of Mithila art who transitioned the ritual wall murals of the Kohbar (nuptial chamber) onto handmade paper during the catastrophic 1966 Bihar drought under Pupul Jayakar's guidance. The sole woman artist from India to exhibit at the landmark 1989 'Magiciens de la Terre' exhibition at Centre Pompidou, Paris, her mythological narratives of Krishna, Radha, and the cosmic serpent Kaliya define modern Mithila art.",
     "techniques": "Characterized by double-line borders filled with tiny cross-hatchings ('Katchni') and saturated solid coloration ('Bharni'). Uses bamboo twigs, crushed matchsticks, and fountain nibs. Pigments are entirely botanical and mineral: soot from kohl lamps for black, turmeric juice for yellow, kusum petals for deep red, and bilva leaves for green, mixed with gum resin.",
-    "materials": ["Handmade Cow-Dung Washed Paper", "Bamboo Twig Pens", "Natural Ochres & Indigo", "Lampblack Soot", "Tassar Silk"],
+    "materials": [
+      "Handmade Cow-Dung Washed Paper",
+      "Bamboo Twig Pens",
+      "Natural Ochres & Indigo",
+      "Lampblack Soot",
+      "Tassar Silk"
+    ],
     "workshop": {
       "name": "Baua Devi Mithila Kala Kendra",
       "address": "Gram Jitwarpur, Near Kali Temple, Block Rahika",
       "district": "Madhubani",
       "state": "Bihar",
       "pincode": "847211",
-      "coordinates": { "lat": 26.3541, "lng": 86.0768 },
+      "coordinates": {
+        "lat": 26.3541,
+        "lng": 86.0768
+      },
       "visitingHours": "10:00 AM - 05:00 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -111,7 +158,7 @@
       "email": "bauadevi.mithila@gmail.com",
       "website": "https://mithilakalaniketan.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Baua_Devi_in_Paris_1989.jpg/600px-Baua_Devi_in_Paris_1989.jpg",
     "coverImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -127,7 +174,12 @@
         "description": "Auspicious wedding motifs including lotus, fishes, and circular celestial rings"
       }
     ],
-    "productsSummary": ["Framed Mythological Canvases", "Tussar Silk Hand-Painted Sarees", "Scroll Art", "Traditional Kohbar Murals"],
+    "productsSummary": [
+      "Framed Mythological Canvases",
+      "Tussar Silk Hand-Painted Sarees",
+      "Scroll Art",
+      "Traditional Kohbar Murals"
+    ],
     "priceRange": "₹3,500 - ₹2,20,000",
     "customOrders": true,
     "viewCount": 5120,
@@ -144,9 +196,21 @@
     "village": "Bidar Old City",
     "experienceYears": 46,
     "awards": [
-      { "name": "Padma Shri", "year": 2023, "authority": "President of India" },
-      { "name": "Shilp Guru", "year": 2006, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "National Award", "year": 1988, "authority": "Govt. of India" }
+      {
+        "name": "Padma Shri",
+        "year": 2023,
+        "authority": "President of India"
+      },
+      {
+        "name": "Shilp Guru",
+        "year": 2006,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "National Award",
+        "year": 1988,
+        "authority": "Govt. of India"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Karnataka State Handicrafts Development Corporation (Cauvery)",
@@ -158,14 +222,23 @@
     },
     "bio": "Shah Rasheed Ahmed Quadri is internationally celebrated for reviving the 600-year-old metal art of Bidar, introduced under the Bahmani Sultanate in the 14th century. Master Quadri revolutionized the craft by introducing geometric sheet inlays, intricate floral meenakari in pure silver, and modern functional silhouettes like pen stands, boxes, and contemporary tableware, while preserving the sacred soil-blackening ritual.",
     "techniques": "The metal body is cast from an alloy of copper and zinc in a 1:16 ratio. The rough casting is smoothed with files, temporarily darkened with copper sulphate, and patterns are chiseled freehand with pointed steel chisels. Pure 99.9% fine silver wire or cut sheet is meticulously hammered into the grooves ('Tarkashi' wire inlay and 'Tehnishan' sheet inlay). Finally, the piece is boiled in a unique chemical paste composed of ammonium chloride and rare unoxidized soil excavated from the foundations of Bidar Fort, which turns the zinc pitch black while leaving silver brilliant white.",
-    "materials": ["Zinc-Copper Alloy (16:1 ratio)", "99.9% Pure Fine Silver Wire", "Bidar Fort Soil", "Ammonium Chloride", "Groundnut Oil Polish"],
+    "materials": [
+      "Zinc-Copper Alloy (16:1 ratio)",
+      "99.9% Pure Fine Silver Wire",
+      "Bidar Fort Soil",
+      "Ammonium Chloride",
+      "Groundnut Oil Polish"
+    ],
     "workshop": {
       "name": "Quadri Bidriware Heritage Workshop",
       "address": "Opposite Chaubara Clock Tower, Old City Crafts Enclave",
       "district": "Bidar",
       "state": "Karnataka",
       "pincode": "585401",
-      "coordinates": { "lat": 17.9126, "lng": 77.5312 },
+      "coordinates": {
+        "lat": 17.9126,
+        "lng": 77.5312
+      },
       "visitingHours": "10:00 AM - 07:00 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -175,8 +248,8 @@
       "email": "bidriquadri@yahoo.com",
       "website": "https://bidriartquadri.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
-    "coverImage": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=80",
+    "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bidri_craft%2C_craftmen_at_work.jpg/600px-Bidri_craft%2C_craftmen_at_work.jpg",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Making_Bidriware.jpg/1000px-Making_Bidriware.jpg",
     "gallery": [
       {
         "url": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80",
@@ -191,7 +264,12 @@
         "description": "Tarkashi wire and sheet inlay with velvet interior lining"
       }
     ],
-    "productsSummary": ["Aftaba Ewers & Vases", "Silver Inlay Jewelry Boxes", "Hookah Bases", "Bidri Tableware & Cufflinks"],
+    "productsSummary": [
+      "Aftaba Ewers & Vases",
+      "Silver Inlay Jewelry Boxes",
+      "Hookah Bases",
+      "Bidri Tableware & Cufflinks"
+    ],
     "priceRange": "₹1,800 - ₹95,000",
     "customOrders": true,
     "viewCount": 4210,
@@ -208,9 +286,21 @@
     "village": "Kot Jewar",
     "experienceYears": 38,
     "awards": [
-      { "name": "Shilp Guru Award", "year": 2021, "authority": "President of India" },
-      { "name": "National Award", "year": 2002, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Rajasthan State Award", "year": 1994, "authority": "Govt. of Rajasthan" }
+      {
+        "name": "Shilp Guru Award",
+        "year": 2021,
+        "authority": "President of India"
+      },
+      {
+        "name": "National Award",
+        "year": 2002,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Rajasthan State Award",
+        "year": 1994,
+        "authority": "Govt. of Rajasthan"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Rajasthan Small Industries Corporation (RAJSICO)",
@@ -222,14 +312,23 @@
     },
     "bio": "Hailing from Kot Jewar village—the artisanal epicentre of Jaipur Blue Pottery—Girraj Prasad is an eminent Shilp Guru who trained under the legendary Padma Shri Kripal Singh Shekhawat. He is renowned for perfecting turquoise, cobalt, and emerald glazes on non-clay dough, crafting massive decorative urns and intricate architectural wall tiles that decorate heritage palaces across Rajasthan and global consulates.",
     "techniques": "Unlike traditional ceramics, Jaipur Blue Pottery uses no clay. The dough ('dough mixture') is ground from quartz stone powder, powdered glass frits, Fuller's earth (Multani Mitti), Katira gum, and natural soda. Objects are formed in open plaster moulds, air-dried, coated with quartz-powder slip, painted with oxide colors (cobalt oxide for deep blue, copper oxide for turquoise, iron oxide for brown) using fine squirrel hair brushes, glazed with glass-borax solution, and single-fired in wood or gas kilns at 800°C–850°C.",
-    "materials": ["Ground Quartz Stone", "Recycled Glass Powder", "Fuller's Earth (Multani Mitti)", "Cobalt & Copper Oxides", "Natural Borax Glaze"],
+    "materials": [
+      "Ground Quartz Stone",
+      "Recycled Glass Powder",
+      "Fuller's Earth (Multani Mitti)",
+      "Cobalt & Copper Oxides",
+      "Natural Borax Glaze"
+    ],
     "workshop": {
       "name": "Kot Jewar Blue Pottery Artisan Guild",
       "address": "Kot Jewar Crafts Cluster, Post Mahapura, Tehsil Sanganer",
       "district": "Jaipur",
       "state": "Rajasthan",
       "pincode": "303902",
-      "coordinates": { "lat": 26.8524, "lng": 75.6983 },
+      "coordinates": {
+        "lat": 26.8524,
+        "lng": 75.6983
+      },
       "visitingHours": "09:30 AM - 06:00 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -239,7 +338,7 @@
       "email": "jaipurbluecraft@gmail.com",
       "website": "https://jaipurbluepotterycraft.com"
     },
-    "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1662717400948-990d71f9e3a8?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -255,7 +354,12 @@
         "description": "Geometric jaali motifs in Persian blue, ultramarine, and saffron accents"
       }
     ],
-    "productsSummary": ["Hand-Painted Urns & Vases", "Architectural Wall Tiles", "Ceramic Platters & Bowls", "Door Knobs & Coasters"],
+    "productsSummary": [
+      "Hand-Painted Urns & Vases",
+      "Architectural Wall Tiles",
+      "Ceramic Platters & Bowls",
+      "Door Knobs & Coasters"
+    ],
     "priceRange": "₹450 - ₹65,000",
     "customOrders": true,
     "viewCount": 3670,
@@ -272,8 +376,16 @@
     "village": "Kanihama",
     "experienceYears": 42,
     "awards": [
-      { "name": "National Master Craftsperson Award", "year": 2011, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "J&K State Handloom Excellence Award", "year": 2004, "authority": "Govt. of Jammu and Kashmir" }
+      {
+        "name": "National Master Craftsperson Award",
+        "year": 2011,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "J&K State Handloom Excellence Award",
+        "year": 2004,
+        "authority": "Govt. of Jammu and Kashmir"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Craft Development Institute (CDI) Srinagar & Handloom Department J&K",
@@ -285,14 +397,22 @@
     },
     "bio": "Ghulam Hassan Mir is a revered fifth-generation master weaver from Kanihama—the historical village whose very name derives from 'Kani' (meaning small wooden spool in Kashmiri). He weaves museum-grade Pashmina shawls using the needle-weave technique mentioned in the 16th-century Mughal chronicle Ain-i-Akbari. A single Jamawar Kani shawl woven in his workshop takes between 9 to 18 months of intensive, uninterrupted hand labor.",
     "techniques": "Woven on traditional four-pedal pit looms using 100% fine hand-spun Changthangi Pashmina cashmere (12–14 microns). Instead of a conventional flying shuttle, hundreds of small eyeless wooden spools called 'Kanis' or 'Tujis' wound with different colored silk or pashmina yarn are inserted manually between warp threads. The weaver decodes a rhythmic sung code called 'Talim' read out by the master artisan, recording the precise warp count for every single color change.",
-    "materials": ["100% Changthangi Ladakh Pashmina Wool", "Hand-Spun Fine Warp Threads", "Natural Vegetable Dyes (Saffron, Walnut Bark, Madder)", "Kani Eyeless Wooden Tujis"],
+    "materials": [
+      "100% Changthangi Ladakh Pashmina Wool",
+      "Hand-Spun Fine Warp Threads",
+      "Natural Vegetable Dyes (Saffron, Walnut Bark, Madder)",
+      "Kani Eyeless Wooden Tujis"
+    ],
     "workshop": {
       "name": "Mir Kani Weaving Guild",
       "address": "Craft Cluster Colony, Near Kanihama Bridge, Tangmarg Road",
       "district": "Budgam",
       "state": "Jammu and Kashmir",
       "pincode": "193401",
-      "coordinates": { "lat": 34.0536, "lng": 74.5821 },
+      "coordinates": {
+        "lat": 34.0536,
+        "lng": 74.5821
+      },
       "visitingHours": "10:00 AM - 05:00 PM (Tue - Sun)",
       "workshopVisitsAllowed": true
     },
@@ -302,7 +422,7 @@
       "email": "kashmirkaniweaves@gmail.com",
       "website": "https://kanihamashawls.com"
     },
-    "profileImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -318,7 +438,12 @@
         "description": "Artisan inserting wooden bobbins following the ancient Talim notation"
       }
     ],
-    "productsSummary": ["Full Jamawar Kani Shawls", "Kani Border Pashmina Stoles", "Antique Mughal Paisley Shawls", "Reversible Kani Wraps"],
+    "productsSummary": [
+      "Full Jamawar Kani Shawls",
+      "Kani Border Pashmina Stoles",
+      "Antique Mughal Paisley Shawls",
+      "Reversible Kani Wraps"
+    ],
     "priceRange": "₹28,000 - ₹4,80,000",
     "customOrders": true,
     "viewCount": 6120,
@@ -335,9 +460,21 @@
     "village": "Raghurajpur",
     "experienceYears": 33,
     "awards": [
-      { "name": "State Master Craftsman Award", "year": 2013, "authority": "Odisha State Directorate of Handicrafts" },
-      { "name": "National Merit Certificate", "year": 2008, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Parampara Shilp Samman", "year": 2019, "authority": "Crafts Council of India" }
+      {
+        "name": "State Master Craftsman Award",
+        "year": 2013,
+        "authority": "Odisha State Directorate of Handicrafts"
+      },
+      {
+        "name": "National Merit Certificate",
+        "year": 2008,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Parampara Shilp Samman",
+        "year": 2019,
+        "authority": "Crafts Council of India"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Odisha State Co-operative Handicrafts Corporation (Utkalika)",
@@ -349,14 +486,23 @@
     },
     "bio": "Apindra Swain lives and works in Raghurajpur, India's first declared Heritage Crafts Village near Puri, where every household has preserved traditional painting since the 12th century. Trained by his father from the age of eight, Apindra specializes in both cotton canvas Pattachitra depicting the Jagannath triad and intricate palm leaf engraving ('Talapatra Chitra') bound with silk cords into concertina folding manuscripts.",
     "techniques": "Canvas ('Patta') is prepared by bonding layers of cotton fabric using tamarind seed paste ('Niryas') and soft stone powder, dried and burnished with sea shells until it turns ivory-smooth. For Talapatra, mature palm leaves (Palmyra) are soaked in turmeric water, sun-dried, cut into strips, and etched freehand using an iron needle stylus ('Lekhani'). The incised grooves are rubbed with black lamp soot mixed with bean leaf extract, and excess is washed off to reveal sharp black lines.",
-    "materials": ["Seasoned Palmyra Palm Leaves", "Iron Needle Stylus (Lekhani)", "Tamarind Seed Gum", "Sea Shell White Pigment (Sankha)", "Lampblack Soot (Kajal)"],
+    "materials": [
+      "Seasoned Palmyra Palm Leaves",
+      "Iron Needle Stylus (Lekhani)",
+      "Tamarind Seed Gum",
+      "Sea Shell White Pigment (Sankha)",
+      "Lampblack Soot (Kajal)"
+    ],
     "workshop": {
       "name": "Swain Pattachitra & Talapatra Shilp Kutir",
       "address": "House No. 24, Main Heritage Craft Street",
       "district": "Puri",
       "state": "Odisha",
       "pincode": "752012",
-      "coordinates": { "lat": 19.8824, "lng": 85.8219 },
+      "coordinates": {
+        "lat": 19.8824,
+        "lng": 85.8219
+      },
       "visitingHours": "08:30 AM - 07:00 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -366,7 +512,7 @@
       "email": "apindra.pattachitra@gmail.com",
       "website": "https://raghurajpurpattachitra.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -382,7 +528,12 @@
         "description": "Cloth canvas painting prepared with conch shell white and natural stone red"
       }
     ],
-    "productsSummary": ["Palm Leaf Etched Bookmarks & Scrolls", "Jagannath Pattachitra Canvas", "Tree of Life Wall Hangings", "Hand-Painted Betel Boxes"],
+    "productsSummary": [
+      "Palm Leaf Etched Bookmarks & Scrolls",
+      "Jagannath Pattachitra Canvas",
+      "Tree of Life Wall Hangings",
+      "Hand-Painted Betel Boxes"
+    ],
     "priceRange": "₹600 - ₹75,000",
     "customOrders": true,
     "viewCount": 3980,
@@ -399,8 +550,16 @@
     "village": "Ganjad",
     "experienceYears": 31,
     "awards": [
-      { "name": "National Master Award", "year": 2014, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "State Handicrafts Award", "year": 2007, "authority": "Maharashtra Small Scale Industries Corp" }
+      {
+        "name": "National Master Award",
+        "year": 2014,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "State Handicrafts Award",
+        "year": 2007,
+        "authority": "Maharashtra Small Scale Industries Corp"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Tribal Research & Training Institute (TRTI) Pune & Ministry of Textiles",
@@ -412,14 +571,23 @@
     },
     "bio": "Disiciple of the pioneer Jivya Soma Mashe, Anil Wangad represents the living animist soul of the Warli indigenous community in the Sahyadri foothills. Exhibited in Paris, London, and Tokyo, Anil uses ancient elemental geometry—the circle representing the sun and moon, the triangle derived from mountains and pointed trees, and the square indicating sacred human enclosures—to portray the Tarpa dance, harvest celebrations, and modern environmental realities.",
     "techniques": "Walls and handmade canvas are pre-treated with a blend of cow dung and red earth clay ('Geru'). The paint is prepared exclusively from freshly milled rice flour paste mixed with water and edible gum acacia binder. Drawn entirely freehand with a small chewed bamboo sprig brush. Paintings depict human figures through two intersecting triangles balanced on a tip, expressing dynamic cosmic balance and communal rhythm.",
-    "materials": ["Fine Ground Rice Paste", "Red Earth (Geru) & Mud Wash", "Natural Cow Dung Base", "Bamboo Chew-Brushes", "Handspun Khadi Canvas"],
+    "materials": [
+      "Fine Ground Rice Paste",
+      "Red Earth (Geru) & Mud Wash",
+      "Natural Cow Dung Base",
+      "Bamboo Chew-Brushes",
+      "Handspun Khadi Canvas"
+    ],
     "workshop": {
       "name": "Wangad Warli Tribal Art Collective",
       "address": "Ganjad Pada, Taluka Dahanu",
       "district": "Palghar",
       "state": "Maharashtra",
       "pincode": "401602",
-      "coordinates": { "lat": 19.9821, "lng": 72.9341 },
+      "coordinates": {
+        "lat": 19.9821,
+        "lng": 72.9341
+      },
       "visitingHours": "09:00 AM - 06:00 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -429,7 +597,7 @@
       "email": "anilwangad.warli@gmail.com",
       "website": "https://warlitribalheritage.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1549887534-1541e9326642?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -445,7 +613,12 @@
         "description": "Goddess of fertility encased inside the sacred square Chowk border"
       }
     ],
-    "productsSummary": ["Framed Khadi Canvases", "Architectural Murals", "Hand-Painted Terracotta Pots", "Tribal Narrative Scrolls"],
+    "productsSummary": [
+      "Framed Khadi Canvases",
+      "Architectural Murals",
+      "Hand-Painted Terracotta Pots",
+      "Tribal Narrative Scrolls"
+    ],
     "priceRange": "₹1,200 - ₹85,000",
     "customOrders": true,
     "viewCount": 3140,
@@ -462,8 +635,16 @@
     "village": "Channapatna",
     "experienceYears": 39,
     "awards": [
-      { "name": "National Handicrafts Award", "year": 2005, "authority": "Govt. of India" },
-      { "name": "Karnataka State Shilpa Kalashree", "year": 2016, "authority": "Govt. of Karnataka" }
+      {
+        "name": "National Handicrafts Award",
+        "year": 2005,
+        "authority": "Govt. of India"
+      },
+      {
+        "name": "Karnataka State Shilpa Kalashree",
+        "year": 2016,
+        "authority": "Govt. of Karnataka"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Karnataka State Handicrafts Development Corporation & Fair Trade Forum",
@@ -475,14 +656,22 @@
     },
     "bio": "Operating in Karnataka's world-famous 'Gombegala Ooru' (Toy Town), Babu Rao and Syed Noor are lifelong master turners preserving the 200-year-old child-safe wooden toy craft promoted originally by Tipu Sultan with Persian artisans. Their workshop strictly adheres to non-toxic organic dyes and soft ivory wood, producing Montessori educational sets, rocking horses, and spinning tops shipped to international conscious play centers.",
     "techniques": "Crafted from seasoned soft wood of the Wrightia tinctoria tree ('Aale mara'). The wood is seasoned, cut to size, and turned on high-speed wood turning lathes using precision hand chisels. While the wood piece spins rapidly on the lathe, sticks of natural lac infused with edible botanical dyes (turmeric for yellow, kumkum seeds for red, indigo for blue, and ratanjot for purple) are pressed against it. Frictional heat melts the lac into an even glassy coat, polished to a brilliant shine using dry talc screw pine leaves ('Pandanus odoratissimus') without any synthetic varnish.",
-    "materials": ["Wrightia tinctoria Ivory Wood", "Organic Non-Toxic Lac", "Turmeric & Indigo Extracts", "Pandanus Talc Polishing Leaves"],
+    "materials": [
+      "Wrightia tinctoria Ivory Wood",
+      "Organic Non-Toxic Lac",
+      "Turmeric & Indigo Extracts",
+      "Pandanus Talc Polishing Leaves"
+    ],
     "workshop": {
       "name": "Channapatna Eco-Heritage Toy Guild",
       "address": "Craft Complex, Bangalore-Mysore State Highway",
       "district": "Ramanagara",
       "state": "Karnataka",
       "pincode": "562160",
-      "coordinates": { "lat": 12.6518, "lng": 77.2089 },
+      "coordinates": {
+        "lat": 12.6518,
+        "lng": 77.2089
+      },
       "visitingHours": "09:00 AM - 07:00 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -492,8 +681,8 @@
       "email": "channapatnawoodcrafts@gmail.com",
       "website": "https://channapatnatoyscraft.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=600&q=80",
-    "coverImage": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1200&q=80",
+    "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Channapatna_artist_coloring_toy.jpg/600px-Channapatna_artist_coloring_toy.jpg",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Finished_Channapatna_toys.jpg/1000px-Finished_Channapatna_toys.jpg",
     "gallery": [
       {
         "url": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=800&q=80",
@@ -508,7 +697,12 @@
         "description": "Smooth ivory wood turned on lathe with mirror screw-pine leaf finish"
       }
     ],
-    "productsSummary": ["Non-Toxic Infant Teethers & Rattles", "Spinning Tops & Yo-Yos", "Wooden Peg Dolls & Chess Sets", "Montessori Math Manipulatives"],
+    "productsSummary": [
+      "Non-Toxic Infant Teethers & Rattles",
+      "Spinning Tops & Yo-Yos",
+      "Wooden Peg Dolls & Chess Sets",
+      "Montessori Math Manipulatives"
+    ],
     "priceRange": "₹200 - ₹8,500",
     "customOrders": true,
     "viewCount": 4480,
@@ -525,9 +719,21 @@
     "village": "Molela",
     "experienceYears": 48,
     "awards": [
-      { "name": "Shilp Guru Award", "year": 2018, "authority": "President of India" },
-      { "name": "National Award", "year": 1995, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Kalamani Award", "year": 2004, "authority": "Surajkund Crafts Mela" }
+      {
+        "name": "Shilp Guru Award",
+        "year": 2018,
+        "authority": "President of India"
+      },
+      {
+        "name": "National Award",
+        "year": 1995,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Kalamani Award",
+        "year": 2004,
+        "authority": "Surajkund Crafts Mela"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Development Commissioner (Handicrafts), Govt. of India",
@@ -539,14 +745,23 @@
     },
     "bio": "For over 700 years, the potters of Molela on the banks of River Banas have hand-modeled sacred hollow votive plaques for tribal priests ('Bhopas') belonging to the Bhil, Garasia, and Gujjar communities. Dinesh Chandra Kumhar is the revered Shilp Guru of this lineage, whose relief sculptures of Lord Devnarayan riding his blue horse and the multi-armed Goddess Chamunda grace temples and tribal shrines across Western India.",
     "techniques": "Clay is harvested strictly from the local Talaab (pond) silt and blended with donkey manure in a 3:1 ratio, providing natural fiber porosity that prevents cracking during firing. The plaque base is flattened on a cloth mat, and high-relief icons are hand-sculpted completely freehand using a small flat wooden spatula knife called 'Baldi'. The sculpted plaques dry in the shade for two weeks before being fired in primitive wood-fueled trench kilns. Finally painted with natural stone pigments and coated with acacia gum resin.",
-    "materials": ["Banas River Alluvial Clay", "Organic Donkey Manure Binder", "Natural Red Geru", "Stone Lime White", "Baldi Wooden Sculpting Chisel"],
+    "materials": [
+      "Banas River Alluvial Clay",
+      "Organic Donkey Manure Binder",
+      "Natural Red Geru",
+      "Stone Lime White",
+      "Baldi Wooden Sculpting Chisel"
+    ],
     "workshop": {
       "name": "Shilp Guru Dinesh Kumhar Terracotta Studio",
       "address": "Kumhar Mohalla, Post Molela, Tehsil Nathdwara",
       "district": "Rajsamand",
       "state": "Rajasthan",
       "pincode": "313301",
-      "coordinates": { "lat": 24.9381, "lng": 73.8124 },
+      "coordinates": {
+        "lat": 24.9381,
+        "lng": 73.8124
+      },
       "visitingHours": "08:00 AM - 06:30 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -556,7 +771,7 @@
       "email": "molelaterracotta@gmail.com",
       "website": "https://molelaterracotta.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1607867810523-d10955f2a8df?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -572,7 +787,12 @@
         "description": "Traditional Bhil tribal votive icon painted with Geru red and chalk white"
       }
     ],
-    "productsSummary": ["Traditional Votive Deity Murals", "Contemporary Terracotta Tiles", "Sun God & Animal Reliefs", "Architectural Clay Panels"],
+    "productsSummary": [
+      "Traditional Votive Deity Murals",
+      "Contemporary Terracotta Tiles",
+      "Sun God & Animal Reliefs",
+      "Architectural Clay Panels"
+    ],
     "priceRange": "₹1,500 - ₹75,000",
     "customOrders": true,
     "viewCount": 2890,
@@ -589,8 +809,16 @@
     "village": "Bikna",
     "experienceYears": 35,
     "awards": [
-      { "name": "President's National Award", "year": 2014, "authority": "Govt. of India" },
-      { "name": "Bangasree Award", "year": 2018, "authority": "Govt. of West Bengal" }
+      {
+        "name": "President's National Award",
+        "year": 2014,
+        "authority": "Govt. of India"
+      },
+      {
+        "name": "Bangasree Award",
+        "year": 2018,
+        "authority": "Govt. of West Bengal"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "West Bengal Handicrafts Development Corp (Manjusha)",
@@ -602,14 +830,22 @@
     },
     "bio": "Residing in Bikna Shilpagram, Bikash and Kalpana practice the oldest non-ferrous lost-wax metal casting method known to humanity—the exact technique used 4,500 years ago to cast the Indus Valley civilization's Dancing Girl of Mohenjo-daro. Their hollow brass castings are distinct for their primitive wire-wrapped texture, elongated limbs, and celebration of tribal folklore.",
     "techniques": "A clay core roughly resembling the final figure is fashioned from local ant-hill soil and paddy husk. Beeswax, resin from the Dammar Sal tree, and mustard oil are mixed, heated, and pushed through a wooden press with tiny perforations to create spaghetti-like wax threads. These threads are wound meticulously over the clay core to form clothing, jewelry, and features. Two additional layers of clay are applied, leaving pouring channels. The mold is heated in a pit furnace; the wax drains away, and molten recycled brass or bronze is poured into the vacuum. Once cooled, the outer clay shell is hammered open, revealing a one-of-a-kind sculpture that can never be duplicated.",
-    "materials": ["Ant-hill Silt Soil & Husk", "Natural Dammar Tree Resin & Beeswax", "Recycled Scrap Brass & Bronze", "Coal Pit Furnace"],
+    "materials": [
+      "Ant-hill Silt Soil & Husk",
+      "Natural Dammar Tree Resin & Beeswax",
+      "Recycled Scrap Brass & Bronze",
+      "Coal Pit Furnace"
+    ],
     "workshop": {
       "name": "Bikna Dokra Shilpagram Collective",
       "address": "Dokra Craft Village, Post Bikna, Near Bankura Town",
       "district": "Bankura",
       "state": "West Bengal",
       "pincode": "722155",
-      "coordinates": { "lat": 23.2389, "lng": 87.0722 },
+      "coordinates": {
+        "lat": 23.2389,
+        "lng": 87.0722
+      },
       "visitingHours": "09:00 AM - 06:00 PM (Mon - Sun)",
       "workshopVisitsAllowed": true
     },
@@ -619,7 +855,7 @@
       "email": "biknadokra@gmail.com",
       "website": "https://biknadokracraft.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -635,7 +871,12 @@
         "description": "Ceremonial lost-wax casting featuring elongated arched necks and geometric wire saddles"
       }
     ],
-    "productsSummary": ["Bastar & Bankura Dokra Horses", "Tribal Musicians & Dancers", "Lost-Wax Oil Diya Lamps", "Dokra Jewelry & Pendants"],
+    "productsSummary": [
+      "Bastar & Bankura Dokra Horses",
+      "Tribal Musicians & Dancers",
+      "Lost-Wax Oil Diya Lamps",
+      "Dokra Jewelry & Pendants"
+    ],
     "priceRange": "₹800 - ₹55,000",
     "customOrders": true,
     "viewCount": 3540,
@@ -652,8 +893,16 @@
     "village": "Thanjavur Old Town",
     "experienceYears": 41,
     "awards": [
-      { "name": "Living Treasure Craftsman", "year": 2017, "authority": "Tamil Nadu Crafts Council" },
-      { "name": "Shilp Guru Nominee", "year": 2022, "authority": "Ministry of Textiles" }
+      {
+        "name": "Living Treasure Craftsman",
+        "year": 2017,
+        "authority": "Tamil Nadu Crafts Council"
+      },
+      {
+        "name": "Shilp Guru Nominee",
+        "year": 2022,
+        "authority": "Ministry of Textiles"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Tamil Nadu Handicrafts Development Corp (Poompuhar)",
@@ -665,14 +914,23 @@
     },
     "bio": "Carrying forward the sacred painting tradition established during the 16th century under the Nayakas and Marathas of Thanjavur, G. Ramanathan creates iconic devotional heirlooms. He follows the canonical iconometric proportions laid out in the Agamas, using 22-carat pure gold leaf and unboiled limestone paste embossing that gives Tanjore paintings their characteristic three-dimensional glow in oil lamps.",
     "techniques": "Base is made of seasoned jackfruit wood or marine plywood covered with unbleached cotton fabric bonded using Arabic tamarind gum. High-relief embossing ('Gesso work' or 'Muck') is prepared by mixing unboiled limestone powder (Sukka Chunnambu) with natural Arabic gum. Genuine uncut Jaipur semi-precious stones and Swarovski crystals are set into the wet gesso. Then, pure 22K gold foil leaves ('Varak') are meticulously pressed over the relief using wet cotton. The divine face and garments are painted with rich gouache tempera colors.",
-    "materials": ["22-Carat Certified Gold Foil Leaf", "Natural Arabic Gum & Unboiled Limestone", "Jaipur Semi-Precious Uncut Stones", "Teakwood & Jackfruit Framing", "Cotton Muck Cloth"],
+    "materials": [
+      "22-Carat Certified Gold Foil Leaf",
+      "Natural Arabic Gum & Unboiled Limestone",
+      "Jaipur Semi-Precious Uncut Stones",
+      "Teakwood & Jackfruit Framing",
+      "Cotton Muck Cloth"
+    ],
     "workshop": {
       "name": "Thanjavur Rajaraja Heritage Art Studio",
       "address": "West Main Street, Opposite Maratha Palace Complex",
       "district": "Thanjavur",
       "state": "Tamil Nadu",
       "pincode": "613009",
-      "coordinates": { "lat": 10.7870, "lng": 79.1378 },
+      "coordinates": {
+        "lat": 10.787,
+        "lng": 79.1378
+      },
       "visitingHours": "09:30 AM - 07:00 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -682,7 +940,7 @@
       "email": "ramanathan.tanjoreart@gmail.com",
       "website": "https://tanjoregoldart.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -698,7 +956,12 @@
         "description": "Intricate temple archway gesso relief laden with pure gold leaf foil"
       }
     ],
-    "productsSummary": ["Traditional Icon Devotional Art", "Teakwood Framed Tanjore Paintings", "Custom Temple Icons", "Gold Leaf Jewelry Trays"],
+    "productsSummary": [
+      "Traditional Icon Devotional Art",
+      "Teakwood Framed Tanjore Paintings",
+      "Custom Temple Icons",
+      "Gold Leaf Jewelry Trays"
+    ],
     "priceRange": "₹7,500 - ₹3,50,000",
     "customOrders": true,
     "viewCount": 4910,
@@ -715,8 +978,16 @@
     "village": "Peeli Kothi",
     "experienceYears": 50,
     "awards": [
-      { "name": "National Master Weaver Award", "year": 2009, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Sant Kabir Award Finalist", "year": 2017, "authority": "All India Handloom Board" }
+      {
+        "name": "National Master Weaver Award",
+        "year": 2009,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Sant Kabir Award Finalist",
+        "year": 2017,
+        "authority": "All India Handloom Board"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Weavers Service Centre (WSC) Varanasi & Ministry of Textiles",
@@ -728,14 +999,22 @@
     },
     "bio": "Operating from Varanasi's historic Peeli Kothi bunkar quarter, Mohammad Rafiq is a 4th-generation master weaver specializing in 'Kadwa' (hand-interlocking extra weft) and 'Kinkhwab' (gilded cloth of dreams) brocades. Unlike machine jacquard copies where loose threads trail at the back, Rafiq's authentic Kadwa technique ensures that every single leaf, flower, and bird is woven individually without floating threads, yielding reversible museum-grade silk heirloom sarees.",
     "techniques": "Pit looms operated with hand-punched Jacquard graph cards (Naksha). Extra-weft motifs are individually locked by hand using tiny bamboo shuttles called 'Feku' or needle spindles. Authentic silver-electroplated copper zari and real gold zari are intertwined with high-twist Katan mulberry silk warp. A single Shikargah (hunting scene) saree requires two master weavers working synchronously for 70 to 90 working days.",
-    "materials": ["Pure Mulberry Katan Silk", "Pure Silver-Gold Plated Zari", "Handmade Punch Graph Cards (Naksha)", "Natural Herbal Water Softening Washes"],
+    "materials": [
+      "Pure Mulberry Katan Silk",
+      "Pure Silver-Gold Plated Zari",
+      "Handmade Punch Graph Cards (Naksha)",
+      "Natural Herbal Water Softening Washes"
+    ],
     "workshop": {
       "name": "Rafiq Banarasi Heritage Weaving Loom",
       "address": "Bunkar Colony, Peeli Kothi, Near Chowk",
       "district": "Varanasi",
       "state": "Uttar Pradesh",
       "pincode": "221001",
-      "coordinates": { "lat": 25.3218, "lng": 83.0089 },
+      "coordinates": {
+        "lat": 25.3218,
+        "lng": 83.0089
+      },
       "visitingHours": "10:30 AM - 07:00 PM (Sat - Thu)",
       "workshopVisitsAllowed": true
     },
@@ -745,7 +1024,7 @@
       "email": "banarasibrocades@gmail.com",
       "website": "https://banarasiweaverscollective.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -761,7 +1040,12 @@
         "description": "Master weaver threading fine golden zari through Katan silk warp"
       }
     ],
-    "productsSummary": ["Pure Katan Silk Kadwa Sarees", "Antique Shikargah Weaves", "Tanchoi Silk Fabrics", "Brocade Dupattas & Lehengas"],
+    "productsSummary": [
+      "Pure Katan Silk Kadwa Sarees",
+      "Antique Shikargah Weaves",
+      "Tanchoi Silk Fabrics",
+      "Brocade Dupattas & Lehengas"
+    ],
     "priceRange": "₹16,000 - ₹3,80,000",
     "customOrders": true,
     "viewCount": 7820,
@@ -778,9 +1062,21 @@
     "village": "Ajrakhpur",
     "experienceYears": 40,
     "awards": [
-      { "name": "UNESCO Seal of Excellence", "year": 2008, "authority": "UNESCO World Crafts Council" },
-      { "name": "National Award", "year": 2003, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Honorary Doctorate in Arts", "year": 2003, "authority": "De Montfort University, UK" }
+      {
+        "name": "UNESCO Seal of Excellence",
+        "year": 2008,
+        "authority": "UNESCO World Crafts Council"
+      },
+      {
+        "name": "National Award",
+        "year": 2003,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Honorary Doctorate in Arts",
+        "year": 2003,
+        "authority": "De Montfort University, UK"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Khamir Craft Resource Centre & Ministry of Textiles",
@@ -792,14 +1088,23 @@
     },
     "bio": "Rebuilding their entire village as 'Ajrakhpur' after the devastating 2001 Bhuj earthquake, Dr. Ismail Khatri's family has practiced the 16-step natural dyeing tradition of Ajrakh for nine generations. Revered by textile historians across the world, their geometric double-sided block prints reflect cosmic geometry using strictly plant and mineral dyes like indigo, madder root, harda, and iron scrap acetate.",
     "techniques": "The fabric undergoes a rigorous 16-stage process taking up to 3 weeks: 'Saaj' (washing in camel dung and soda), 'Kasanu' (tanning with Harda myrobalan powder), 'Rekh' (fine outline block printing with lime and acacia gum), and 'Katt' (black printing with fermented scrap iron and jaggery syrup). Multiple dips in natural fermented indigo vats and boiling in copper vats with dried Dhauro flowers and madder root yield intense crimson reds and celestial blues that resist fading over centuries.",
-    "materials": ["Hand-Carved Shisham Wood Printing Blocks", "Indigofera tinctoria Indigo Cakes", "Madder Root (Manjistha)", "Fermented Scrap Iron & Jaggery (Kachuka)", "Pure Handloom Cotton & Mashru Silk"],
+    "materials": [
+      "Hand-Carved Shisham Wood Printing Blocks",
+      "Indigofera tinctoria Indigo Cakes",
+      "Madder Root (Manjistha)",
+      "Fermented Scrap Iron & Jaggery (Kachuka)",
+      "Pure Handloom Cotton & Mashru Silk"
+    ],
     "workshop": {
       "name": "Ajrakhpur Natural Dye Research & Craft Studio",
       "address": "Ajrakhpur Craft Village, Bhuj-Anjar Highway",
       "district": "Kutch",
       "state": "Gujarat",
       "pincode": "370105",
-      "coordinates": { "lat": 23.2120, "lng": 69.8340 },
+      "coordinates": {
+        "lat": 23.212,
+        "lng": 69.834
+      },
       "visitingHours": "09:00 AM - 06:00 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -809,7 +1114,7 @@
       "email": "kutchajrakhpur@gmail.com",
       "website": "https://ajrakhpurcraft.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1606744824163-985d376605aa?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -825,7 +1130,12 @@
         "description": "Silk surface with cotton underside printed with natural madder and tamarind seed resist"
       }
     ],
-    "productsSummary": ["Double-Sided Ajrakh Chadors", "Pure Silk & Modal Stoles", "Running Meter Yardage", "Ajrakh Quilts & Home Linens"],
+    "productsSummary": [
+      "Double-Sided Ajrakh Chadors",
+      "Pure Silk & Modal Stoles",
+      "Running Meter Yardage",
+      "Ajrakh Quilts & Home Linens"
+    ],
     "priceRange": "₹1,200 - ₹45,000",
     "customOrders": true,
     "viewCount": 5420,
@@ -842,8 +1152,16 @@
     "village": "Srikalahasti",
     "experienceYears": 37,
     "awards": [
-      { "name": "National Award", "year": 2004, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Shilp Guru Nominee", "year": 2019, "authority": "Development Commissioner (Handicrafts)" }
+      {
+        "name": "National Award",
+        "year": 2004,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Shilp Guru Nominee",
+        "year": 2019,
+        "authority": "Development Commissioner (Handicrafts)"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Andhra Pradesh Handicrafts Development Corp (Lepakshi)",
@@ -855,14 +1173,23 @@
     },
     "bio": "Thriving on the banks of holy river Swarnamukhi, Srikalahasti Kalamkari is uniquely distinguished from block-printed Masulipatnam Kalamkari by being 100% drawn and painted freehand using a bamboo reed pen. K. Venkataswamy is an accomplished master whose temple hangings depict epic episodes from the Ramayana, Mahabharata, and Shiva Purana, adhering to canonical natural coloring rules.",
     "techniques": "Unbleached cotton cloth is washed in running river water and soaked in buffalo milk blended with powdered Myrobalan fruit (Karakkaya), which prevents bleeding of ink. Outlines are drawn freehand with charcoal sticks made from tamarind twigs, followed by black 'Kasim' ink made from iron horseshoes fermented in palm jaggery water for 21 days, applied using a bamboo reed 'Kalam' wrapped with woolen hair. Natural colors are filled: alum mordanting for red, boiled pomegranate rinds and turmeric for yellow, and fermented indigo for blue.",
-    "materials": ["Bamboo Reed Stylus Pen (Kalam)", "Buffalo Milk & Myrobalan Soak", "Fermented Iron & Jaggery Kasim Ink", "Natural Pomegranate Rind & Madder Dyes", "River Cotton Khadi"],
+    "materials": [
+      "Bamboo Reed Stylus Pen (Kalam)",
+      "Buffalo Milk & Myrobalan Soak",
+      "Fermented Iron & Jaggery Kasim Ink",
+      "Natural Pomegranate Rind & Madder Dyes",
+      "River Cotton Khadi"
+    ],
     "workshop": {
       "name": "Venkataswamy Kalamkari Veda Shilpashala",
       "address": "River Swarnamukhi Bank Road, Temple Lane",
       "district": "Tirupati",
       "state": "Andhra Pradesh",
       "pincode": "517644",
-      "coordinates": { "lat": 13.7498, "lng": 79.6984 },
+      "coordinates": {
+        "lat": 13.7498,
+        "lng": 79.6984
+      },
       "visitingHours": "09:00 AM - 06:30 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -888,7 +1215,12 @@
         "description": "Detailed pen Kalamkari with natural indigo, madder, and turmeric shades"
       }
     ],
-    "productsSummary": ["Mythological Temple Wall Scrolls", "Tussar Silk Hand-Painted Sarees", "Tree of Life Art Panels", "Dupattas & Stoles"],
+    "productsSummary": [
+      "Mythological Temple Wall Scrolls",
+      "Tussar Silk Hand-Painted Sarees",
+      "Tree of Life Art Panels",
+      "Dupattas & Stoles"
+    ],
     "priceRange": "₹2,500 - ₹1,20,000",
     "customOrders": true,
     "viewCount": 3810,
@@ -905,9 +1237,21 @@
     "village": "Swamimalai",
     "experienceYears": 47,
     "awards": [
-      { "name": "Shilp Guru Award", "year": 2012, "authority": "President of India" },
-      { "name": "National Award", "year": 1998, "authority": "Govt. of India" },
-      { "name": "Kalaimamani", "year": 2005, "authority": "Govt. of Tamil Nadu" }
+      {
+        "name": "Shilp Guru Award",
+        "year": 2012,
+        "authority": "President of India"
+      },
+      {
+        "name": "National Award",
+        "year": 1998,
+        "authority": "Govt. of India"
+      },
+      {
+        "name": "Kalaimamani",
+        "year": 2005,
+        "authority": "Govt. of Tamil Nadu"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Tamil Nadu Handicrafts Development Corp & Archaeological Survey of India (ASI) Approved",
@@ -919,14 +1263,23 @@
     },
     "bio": "Belonging to the direct architectural and sculpting lineage that cast the monumental bronzes of the Brihadisvara Temple under Raja Raja Chola I in 1010 CE, N. Sivaraman Sthapathi preserves the sacred art of 'Panchaloha' (five-metal alloy) casting. Adhering to the Sanskrit verses of the Shilpa Shastra, his iconic Nataraja, Ardhanarishvara, and Parvati statues grace world museums and temple sanctums.",
     "techniques": "The wax model ('Mezhugu') is sculpted from pure beeswax, dammar resin (Kungilium), and groundnut oil. Measurements follow the 'Talamana' canon based on multiples of the idol's own finger-breadth. The wax model is layered three times with fine alluvial silt harvested from the bed of River Kaveri, forming the 'Karu' mold. Reinforced with iron wires and baked in an open kiln, the melted wax drains out. The five-metal alloy ('Panchaloha'—predominantly copper, brass, lead, with ceremonial pinches of gold and silver) is liquefied in graphite crucibles at 1,100°C and poured in a continuous stream. Once cooled and unchiseled, details are carved using hand-tempered cold chisels.",
-    "materials": ["Kaveri River Alluvial Clay", "Natural Beeswax & Kungilium Resin", "Panchaloha Sacred 5-Metal Alloy", "Tempered Hand Chisels", "Coconut Husk Polishing Pads"],
+    "materials": [
+      "Kaveri River Alluvial Clay",
+      "Natural Beeswax & Kungilium Resin",
+      "Panchaloha Sacred 5-Metal Alloy",
+      "Tempered Hand Chisels",
+      "Coconut Husk Polishing Pads"
+    ],
     "workshop": {
       "name": "Chola Sthapathi Bronze Foundry",
       "address": "Big Car Street, Near Swaminatha Swamy Temple",
       "district": "Thanjavur",
       "state": "Tamil Nadu",
       "pincode": "612302",
-      "coordinates": { "lat": 10.9572, "lng": 79.3245 },
+      "coordinates": {
+        "lat": 10.9572,
+        "lng": 79.3245
+      },
       "visitingHours": "08:30 AM - 06:30 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -936,7 +1289,7 @@
       "email": "swamimalaibronzes@gmail.com",
       "website": "https://swamimalaicholapanchaloha.com"
     },
-    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -952,7 +1305,12 @@
         "description": "Tribhanga poise with hand-chiseled mukuta crown and silk garment folds"
       }
     ],
-    "productsSummary": ["Canonical Temple Nataraja Idols", "Panchaloha Deities & Bodhisattvas", "Traditional Bronze Votive Lamps (Kuthuvilakku)", "Museum Masterpieces"],
+    "productsSummary": [
+      "Canonical Temple Nataraja Idols",
+      "Panchaloha Deities & Bodhisattvas",
+      "Traditional Bronze Votive Lamps (Kuthuvilakku)",
+      "Museum Masterpieces"
+    ],
     "priceRange": "₹12,000 - ₹9,50,000",
     "customOrders": true,
     "viewCount": 5940,
@@ -969,8 +1327,16 @@
     "village": "Patiala Heritage Quarter",
     "experienceYears": 34,
     "awards": [
-      { "name": "National Handicrafts Award", "year": 2015, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "State Master Craftsperson", "year": 2009, "authority": "Govt. of Punjab" }
+      {
+        "name": "National Handicrafts Award",
+        "year": 2015,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "State Master Craftsperson",
+        "year": 2009,
+        "authority": "Govt. of Punjab"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Punjab State Cooperative Supply & Marketing Fed (Markfed Crafts)",
@@ -982,14 +1348,22 @@
     },
     "bio": "Honoring Punjab's poetic matrimonial heritage celebrated in the folk epic of Heer Ranjha, Manjit Kaur leads a collaborative cluster of 120 rural women artisans reviving the antique 'Bagh' (entire garden covered in embroidery) and 'Chope' styles of Phulkari. Their embroideries are stitched without stencils from the reverse side of handspun Khaddar using untwisted silk floss thread.",
     "techniques": "Embroidered entirely on the wrong (reverse) side of coarse hand-spun and indigo or madder-dyed cotton Khaddar fabric. The artisan counts the warp and weft yarns thread by thread without any preliminary drawing or tracing. Using untwisted glossy silk floss yarn called 'Pat' sourced from Kashmir, the darning stitch is executed with millimeter precision. Different directions of the stitch create an undulating, three-dimensional geometric play of light on the glossy surface.",
-    "materials": ["Untwisted Glossy Silk Floss Yarn (Pat)", "Hand-Spun Homespun Cotton Khaddar", "Traditional Bone Needles", "Natural Indigo & Madder Khaddar Dyes"],
+    "materials": [
+      "Untwisted Glossy Silk Floss Yarn (Pat)",
+      "Hand-Spun Homespun Cotton Khaddar",
+      "Traditional Bone Needles",
+      "Natural Indigo & Madder Khaddar Dyes"
+    ],
     "workshop": {
       "name": "Patiala Heritage Phulkari Kendra",
       "address": "Near Qila Mubarak Heritage Gate, Adalat Bazar",
       "district": "Patiala",
       "state": "Punjab",
       "pincode": "147001",
-      "coordinates": { "lat": 30.3244, "lng": 76.4011 },
+      "coordinates": {
+        "lat": 30.3244,
+        "lng": 76.4011
+      },
       "visitingHours": "10:00 AM - 06:00 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -1015,7 +1389,12 @@
         "description": "Depicting rural Punjabi folklore, spinning wheels, peacocks, and wedding palanquins"
       }
     ],
-    "productsSummary": ["Heirloom Silk Floss Baghs", "Phulkari Dupattas & Stoles", "Embroidered Kurta Lengths", "Heritage Wall Hangings"],
+    "productsSummary": [
+      "Heirloom Silk Floss Baghs",
+      "Phulkari Dupattas & Stoles",
+      "Embroidered Kurta Lengths",
+      "Heritage Wall Hangings"
+    ],
     "priceRange": "₹2,200 - ₹95,000",
     "customOrders": true,
     "viewCount": 3310,
@@ -1032,8 +1411,16 @@
     "village": "Bhoodan Pochampally",
     "experienceYears": 36,
     "awards": [
-      { "name": "National Master Weaver Award", "year": 2012, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "State Handloom Icon Award", "year": 2018, "authority": "Govt. of Telangana" }
+      {
+        "name": "National Master Weaver Award",
+        "year": 2012,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "State Handloom Icon Award",
+        "year": 2018,
+        "authority": "Govt. of Telangana"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Telangana State Handloom Weavers Cooperative (TSCO)",
@@ -1045,14 +1432,22 @@
     },
     "bio": "Bhoodan Pochampally was India's first craft product to receive Geographical Indication (GI) tag protection in 2004. C. Chitti Babu represents the community's master weavers capable of 'Double-Ikat'—an excruciatingly complex calculation where both warp (longitudinal) and weft (crosswise) threads are separately resist-dyed before mounting onto the loom, ensuring motifs match with razor-sharp precision at every shuttle pass.",
     "techniques": "Yarns of pure mulberry silk or fine cotton are wound onto specialized triangular peg frames ('Asu') to calculate design grids. Bundles of threads are tied with waterproof rubber ties according to mathematical graphs and dipped into dye baths. The process is repeated for every color in the palette. Once dry, the dyed warp is mounted on pit looms, and the weft is wound onto pirns. As the weaver throws the fly shuttle, warp and weft intersect to materialize complex diamond, parrot, and geometric motifs.",
-    "materials": ["Pure Bangalore Mulberry Silk (20/22 denier)", "Azo-Free Colorfast Dyes", "Traditional Asu Peg Frames", "Pit Looms with Fly Shuttle Mechanism"],
+    "materials": [
+      "Pure Bangalore Mulberry Silk (20/22 denier)",
+      "Azo-Free Colorfast Dyes",
+      "Traditional Asu Peg Frames",
+      "Pit Looms with Fly Shuttle Mechanism"
+    ],
     "workshop": {
       "name": "Pochampally Double-Ikat Weaver Cooperative",
       "address": "Bunkar Street, Bhoodan Pochampally",
       "district": "Yadadri Bhuvanagiri",
       "state": "Telangana",
       "pincode": "508284",
-      "coordinates": { "lat": 17.3458, "lng": 78.8189 },
+      "coordinates": {
+        "lat": 17.3458,
+        "lng": 78.8189
+      },
       "visitingHours": "09:00 AM - 06:30 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -1078,7 +1473,12 @@
         "description": "High count handloom cotton dyed in black, rust, and ecru geometric diamond checks"
       }
     ],
-    "productsSummary": ["Double-Ikat Silk Sarees", "Single-Ikat Cotton Yardage", "Pochampally Dupattas", "Handloom Table Runners"],
+    "productsSummary": [
+      "Double-Ikat Silk Sarees",
+      "Single-Ikat Cotton Yardage",
+      "Pochampally Dupattas",
+      "Handloom Table Runners"
+    ],
     "priceRange": "₹3,500 - ₹85,000",
     "customOrders": true,
     "viewCount": 4200,
@@ -1095,8 +1495,16 @@
     "village": "Ranti",
     "experienceYears": 38,
     "awards": [
-      { "name": "Padma Shri", "year": 2021, "authority": "President of India" },
-      { "name": "State Master Craftsman Award", "year": 2012, "authority": "Govt. of Bihar" }
+      {
+        "name": "Padma Shri",
+        "year": 2021,
+        "authority": "President of India"
+      },
+      {
+        "name": "State Master Craftsman Award",
+        "year": 2012,
+        "authority": "Govt. of Bihar"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Ministry of Textiles & Upendra Maharathi Shilp Anusandhan Sansthan",
@@ -1108,14 +1516,23 @@
     },
     "bio": "Dulari Devi's life story is an inspiring testament to the transformative power of traditional Indian craft. Born into an impoverished Dalit fishing and agricultural labor family without formal schooling, she began as a domestic helper in the household of National Award artist Karpuri Devi. Watching Karpuri paint, Dulari picked up the nib. Today, she is a Padma Shri recipient whose artwork hangs in the Asian Art Museum of San Francisco, known for chronicling rural women's labor, child-rearing, and fishing life.",
     "techniques": "Specializes in the fine 'Kachni' line-drawing style of Madhubani art. Unlike the colorful Bharni style, Kachni relies almost entirely on monochrome or duochrome hatched line work using nibs and fine twigs. She paints directly onto handmade paper treated with cow-dung wash, rendering everyday rural life—women harvesting makhana (foxnuts) in waist-deep ponds, fishermen throwing nets, and village festivals.",
-    "materials": ["Handmade Rag Paper", "Fine Fountain Nibs & Bamboo Stems", "Lampblack Soot", "Natural Turmeric & Plant Pigments", "Cow-Dung Priming Wash"],
+    "materials": [
+      "Handmade Rag Paper",
+      "Fine Fountain Nibs & Bamboo Stems",
+      "Lampblack Soot",
+      "Natural Turmeric & Plant Pigments",
+      "Cow-Dung Priming Wash"
+    ],
     "workshop": {
       "name": "Dulari Devi Mithila Heritage Studio",
       "address": "Ranti Village, Post Rajnagar",
       "district": "Madhubani",
       "state": "Bihar",
       "pincode": "847235",
-      "coordinates": { "lat": 26.3789, "lng": 86.0945 },
+      "coordinates": {
+        "lat": 26.3789,
+        "lng": 86.0945
+      },
       "visitingHours": "10:00 AM - 05:30 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -1125,7 +1542,7 @@
       "email": "dularidevi.mithila@gmail.com",
       "website": "https://dularidevimadhubani.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/President_Kovind_presents_Padma_Shri_to_Smt._Dulari_Devi.jpg/600px-President_Kovind_presents_Padma_Shri_to_Smt._Dulari_Devi.jpg",
     "coverImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1141,7 +1558,12 @@
         "description": "Fine hatched lines illustrating devotional sun worship on the river ghat"
       }
     ],
-    "productsSummary": ["Social Realism Kachni Paintings", "Framed Mithila Canvases", "Tussar Silk Hand-Painted Scarves", "Mithila Illustrated Folios"],
+    "productsSummary": [
+      "Social Realism Kachni Paintings",
+      "Framed Mithila Canvases",
+      "Tussar Silk Hand-Painted Scarves",
+      "Mithila Illustrated Folios"
+    ],
     "priceRange": "₹2,800 - ₹1,80,000",
     "customOrders": true,
     "viewCount": 5890,
@@ -1158,8 +1580,16 @@
     "village": "Pink City",
     "experienceYears": 49,
     "awards": [
-      { "name": "Shilp Guru Award", "year": 2015, "authority": "President of India" },
-      { "name": "National Award", "year": 1993, "authority": "Ministry of Textiles, Govt. of India" }
+      {
+        "name": "Shilp Guru Award",
+        "year": 2015,
+        "authority": "President of India"
+      },
+      {
+        "name": "National Award",
+        "year": 1993,
+        "authority": "Ministry of Textiles, Govt. of India"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Rajasthan Small Industries Corporation (RAJSICO)",
@@ -1171,14 +1601,23 @@
     },
     "bio": "Master Babu Lal Marotia represents the pinnacle of Rajasthani court miniature painting dating back to the royal ateliers of Maharaja Sawai Jai Singh. Renowned for single-hair squirrel tail brushes, Marotia paints with microscopic precision on antique handmade Vasli paper, grinding genuine lapis lazuli for azure skies and real 24-carat gold powder ('Hilakari') for royal armaments and haloes.",
     "techniques": "Multiple sheets of handmade sun-dried cotton paper are laminated together with starch paste into a thick board called 'Vasli'. The surface is burnished with smooth river agate stones until it gleams. Underdrawing is sketched with light red ochre. Painting is carried out with custom brushes assembled using 1 to 3 hairs plucked harmlessly from the tails of living squirrels. Pigments are ground from semi-precious minerals: cinnabar (Hinglu) for red, orpiment (Hartal) for bright yellow, malachite for green, and crushed lapis lazuli for royal blue.",
-    "materials": ["Vasli Multi-Layered Burnished Paper", "Single Squirrel-Hair Brushes", "Lapis Lazuli, Malachite & Cinnabar Minerals", "24K Gold Leaf Powder (Hilakari)", "Agate Stone Burnisher"],
+    "materials": [
+      "Vasli Multi-Layered Burnished Paper",
+      "Single Squirrel-Hair Brushes",
+      "Lapis Lazuli, Malachite & Cinnabar Minerals",
+      "24K Gold Leaf Powder (Hilakari)",
+      "Agate Stone Burnisher"
+    ],
     "workshop": {
       "name": "Marotia Court Miniature Atelier",
       "address": "Bazaar Hawa Mahal, Pink City Enclave",
       "district": "Jaipur",
       "state": "Rajasthan",
       "pincode": "302002",
-      "coordinates": { "lat": 26.9239, "lng": 75.8267 },
+      "coordinates": {
+        "lat": 26.9239,
+        "lng": 75.8267
+      },
       "visitingHours": "10:00 AM - 07:00 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -1188,7 +1627,7 @@
       "email": "marotia.miniatures@gmail.com",
       "website": "https://jaipurminiaturepaintings.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1204,7 +1643,12 @@
         "description": "Microscopic mineral pigment illumination illustrating Raga Megha Mallar"
       }
     ],
-    "productsSummary": ["Framed Court Miniatures", "Bani Thani Portraits", "Ragamala Folios", "Custom Miniature Portraits on Antique Paper"],
+    "productsSummary": [
+      "Framed Court Miniatures",
+      "Bani Thani Portraits",
+      "Ragamala Folios",
+      "Custom Miniature Portraits on Antique Paper"
+    ],
     "priceRange": "₹4,500 - ₹2,50,000",
     "customOrders": true,
     "viewCount": 4760,
@@ -1221,8 +1665,16 @@
     "village": "Kondagaon",
     "experienceYears": 30,
     "awards": [
-      { "name": "National Handicrafts Award", "year": 2016, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Chhattisgarh State Craft Pride", "year": 2011, "authority": "Chhattisgarh Hastshilp Vikas Board" }
+      {
+        "name": "National Handicrafts Award",
+        "year": 2016,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Chhattisgarh State Craft Pride",
+        "year": 2011,
+        "authority": "Chhattisgarh Hastshilp Vikas Board"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Chhattisgarh Hastshilp Vikas Board (Shabari Emporium)",
@@ -1234,14 +1686,22 @@
     },
     "bio": "The blacksmiths (Lohars) of the Gond and Maria tribes of Bastar have forged iron for millennia, originally crafting hunting arrowheads and farming sickles. Hemant Kumar leads a renowned artisanal cooperative that transformed this utilitarian metallurgy into expressive contemporary art—hand-forging scrap iron into slender antelopes, ceremonial oil lamps, and tall musicians without modern welding.",
     "techniques": "Crafted exclusively from recycled iron scrap, wrought rods, and discarded iron plates. Pieces of iron are heated red-hot in traditional open charcoal hearths fueled by manual goat-skin or hand bellows. While glowing red, the iron is beaten forcefully on an anvil using heavy hammers and cold-cut with chisels. No electrical welding or soldering is used; separate limbs and appendages are joined by hot-riveting or wrapping malleable heated iron collars around joints. Finally polished with mustard oil to produce a rust-resistant matte graphite finish.",
-    "materials": ["Recycled Scrap Wrought Iron", "Hardwood Charcoal", "Manual Bellows", "Mustard Oil Anti-Oxidation Finish"],
+    "materials": [
+      "Recycled Scrap Wrought Iron",
+      "Hardwood Charcoal",
+      "Manual Bellows",
+      "Mustard Oil Anti-Oxidation Finish"
+    ],
     "workshop": {
       "name": "Bastar Tribal Loha Shilp Guild",
       "address": "Kondagaon Shilpgram, Jagdalpur Road",
       "district": "Bastar",
       "state": "Chhattisgarh",
       "pincode": "494226",
-      "coordinates": { "lat": 19.5989, "lng": 81.6712 },
+      "coordinates": {
+        "lat": 19.5989,
+        "lng": 81.6712
+      },
       "visitingHours": "09:00 AM - 06:00 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -1251,7 +1711,7 @@
       "email": "bastarlohashilp@gmail.com",
       "website": "https://bastarironcraft.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1267,7 +1727,12 @@
         "description": "Branching wrought iron oil lamps with avian motifs and hot-riveted joints"
       }
     ],
-    "productsSummary": ["Slender Bastar Deer Sculptures", "Tribal Musicians & Candle Stands", "Multi-Tiered Oil Diya Lamps", "Architectural Iron Grills & Hooks"],
+    "productsSummary": [
+      "Slender Bastar Deer Sculptures",
+      "Tribal Musicians & Candle Stands",
+      "Multi-Tiered Oil Diya Lamps",
+      "Architectural Iron Grills & Hooks"
+    ],
     "priceRange": "₹450 - ₹42,000",
     "customOrders": true,
     "viewCount": 2980,
@@ -1284,8 +1749,16 @@
     "village": "Downtown Safa Kadal",
     "experienceYears": 37,
     "awards": [
-      { "name": "J&K State Master Craftsperson", "year": 2010, "authority": "Directorate of Handicrafts Kashmir" },
-      { "name": "National Merit Certificate", "year": 2018, "authority": "Ministry of Textiles, Govt. of India" }
+      {
+        "name": "J&K State Master Craftsperson",
+        "year": 2010,
+        "authority": "Directorate of Handicrafts Kashmir"
+      },
+      {
+        "name": "National Merit Certificate",
+        "year": 2018,
+        "authority": "Ministry of Textiles, Govt. of India"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Craft Development Institute (CDI) Srinagar & J&K Handicrafts",
@@ -1297,14 +1770,22 @@
     },
     "bio": "Carving in the winding historic alleys of Srinagar's Safa Kadal along the Jhelum River, Zakir Hussain Mir works with wild walnut timber (Juglans regia) harvested exclusively from fallen or dead trees in the Kashmir Valley. His family specializes in 'Jali' (open lattice fretwork) and 'Vaskar' (deep three-dimensional undercut relief) depicting wild chinar leaves, lotus blooms, and singing bulbuls.",
     "techniques": "Wild walnut logs are seasoned naturally in shaded courtyards for 2 to 3 years to ensure the wood does not warp or split in dry climates. Master Zakir employs four distinct carving depths: 'Undercut' (multi-layered 3D relief where flower stems are completely detached from background), 'Relief' (raised surface), 'Engraved' (fine shallow lines), and 'Open Lattice' (Jaali). Finished entirely by burnishing with smooth sea stones and walnut oil—no synthetic varnishes or stains are applied, allowing the natural dark heartwood grain to darken gracefully over decades.",
-    "materials": ["Seasoned Kashmiri Wild Walnut Wood (Doon)", "Hand-Tempered Specialized Chisels (Wath)", "Walnut Kernel Oil Polish", "Agate Stone Burnisher"],
+    "materials": [
+      "Seasoned Kashmiri Wild Walnut Wood (Doon)",
+      "Hand-Tempered Specialized Chisels (Wath)",
+      "Walnut Kernel Oil Polish",
+      "Agate Stone Burnisher"
+    ],
     "workshop": {
       "name": "Mir Walnut Wood Carving Guild",
       "address": "Crafts Lane, Safa Kadal, Downtown Srinagar",
       "district": "Srinagar",
       "state": "Jammu and Kashmir",
       "pincode": "190002",
-      "coordinates": { "lat": 34.0912, "lng": 74.8012 },
+      "coordinates": {
+        "lat": 34.0912,
+        "lng": 74.8012
+      },
       "visitingHours": "09:30 AM - 05:30 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -1314,7 +1795,7 @@
       "email": "kashmirwalnutcarving@gmail.com",
       "website": "https://kashmirwalnutcraft.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1330,7 +1811,12 @@
         "description": "Interlocking wooden battens assembled without a single nail or glue drop"
       }
     ],
-    "productsSummary": ["Hand-Carved Walnut Keepsake Boxes", "Undercut Chinar Fruit Bowls", "Folding Room Dividers (Screens)", "Architectural Wall Plaques"],
+    "productsSummary": [
+      "Hand-Carved Walnut Keepsake Boxes",
+      "Undercut Chinar Fruit Bowls",
+      "Folding Room Dividers (Screens)",
+      "Architectural Wall Plaques"
+    ],
     "priceRange": "₹1,800 - ₹1,40,000",
     "customOrders": true,
     "viewCount": 3870,
@@ -1347,8 +1833,16 @@
     "village": "Saharanpur Wood Hub",
     "experienceYears": 32,
     "awards": [
-      { "name": "National Award", "year": 2011, "authority": "Govt. of India" },
-      { "name": "EPCH Craft Excellence Trophy", "year": 2019, "authority": "Export Promotion Council for Handicrafts" }
+      {
+        "name": "National Award",
+        "year": 2011,
+        "authority": "Govt. of India"
+      },
+      {
+        "name": "EPCH Craft Excellence Trophy",
+        "year": 2019,
+        "authority": "Export Promotion Council for Handicrafts"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Export Promotion Council for Handicrafts & UP Handicrafts Board",
@@ -1360,14 +1854,22 @@
     },
     "bio": "Known as the 'Wood City of India', Saharanpur produces world-class hand-carved furniture and decorative woodwork. Prabhu Dayal is a master artisan famed for resurrecting the difficult technique of 'Tarkashi'—embedding flattened brass wire into seasoned Sheesham (Indian Rosewood) to form intricate floral arabesques and geometric jaali screens.",
     "techniques": "Hardwood Sheesham timber is seasoned in solar kilns. Detailed floral patterns are drafted onto the wood with paper stencils. Using razor-sharp fine gouges, narrow trenches half-millimeter deep are cut along the lines. Thin flattened brass ribbon wire is embedded into these trenches and hammered level using a small mallet. The surface is then planed smooth and rubbed with sandpaper and beeswax, ensuring the brass glints seamlessly against dark brown rosewood.",
-    "materials": ["Seasoned Indian Rosewood (Sheesham)", "Pure Brass Wire Ribbon", "Beeswax & Linseed Oil Polish", "Hand Carving Chisels"],
+    "materials": [
+      "Seasoned Indian Rosewood (Sheesham)",
+      "Pure Brass Wire Ribbon",
+      "Beeswax & Linseed Oil Polish",
+      "Hand Carving Chisels"
+    ],
     "workshop": {
       "name": "Dayal Tarkashi Woodcraft Studio",
       "address": "Ambala Road Crafts Enclave, Near Industrial Area",
       "district": "Saharanpur",
       "state": "Uttar Pradesh",
       "pincode": "247001",
-      "coordinates": { "lat": 29.9642, "lng": 77.5460 },
+      "coordinates": {
+        "lat": 29.9642,
+        "lng": 77.546
+      },
       "visitingHours": "09:30 AM - 06:30 PM (Mon - Sat)",
       "workshopVisitsAllowed": true
     },
@@ -1377,7 +1879,7 @@
       "email": "saharanpurwoodcraft@gmail.com",
       "website": "https://saharanpurwoodcraft.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1393,7 +1895,12 @@
         "description": "Open fretwork carving with velvet interior and brass latch"
       }
     ],
-    "productsSummary": ["Tarkashi Brass Inlaid Boxes", "Hand-Pierced Jaali Room Dividers", "Sheesham Serving Trays", "Carved Bookstands (Rehal)"],
+    "productsSummary": [
+      "Tarkashi Brass Inlaid Boxes",
+      "Hand-Pierced Jaali Room Dividers",
+      "Sheesham Serving Trays",
+      "Carved Bookstands (Rehal)"
+    ],
     "priceRange": "₹650 - ₹68,000",
     "customOrders": true,
     "viewCount": 3120,
@@ -1410,8 +1917,16 @@
     "village": "Muthanadu Mund (Ooty)",
     "experienceYears": 45,
     "awards": [
-      { "name": "National Tribal Welfare Craft Honor", "year": 2016, "authority": "Ministry of Tribal Affairs, Govt. of India" },
-      { "name": "Tamil Nadu Indigenous Heritage Award", "year": 2020, "authority": "Tribal Research Centre, Udhagamandalam" }
+      {
+        "name": "National Tribal Welfare Craft Honor",
+        "year": 2016,
+        "authority": "Ministry of Tribal Affairs, Govt. of India"
+      },
+      {
+        "name": "Tamil Nadu Indigenous Heritage Award",
+        "year": 2020,
+        "authority": "Tribal Research Centre, Udhagamandalam"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Tribal Cooperative Marketing Development Federation of India (TRIFED)",
@@ -1423,14 +1938,22 @@
     },
     "bio": "Lakshmi Ammal is an elder of the pastoral Toda tribe dwelling in the high-altitude grasslands of the Nilgiris Biosphere. For generations, Toda women have embroidered their sacred ceremonial mantle known as 'Poothkuli'—a heavy white woven shawl draped during weddings and funeral rites. The embroidery is executed without graph paper or markings, directly reflecting the horns of sacred buffaloes, wild mountain butterflies, and spiderwebs.",
     "techniques": "Embroidered on coarse, loosely woven unbleached white cotton cloth with red and black wool or cotton threads. The technique relies on counting the threads of the warp and weft. Because the threads are counted with surgical precision, the reverse side of the shawl is almost as neat and geometrically symmetrical as the front face, giving the illusion of an embossed weave rather than surface embroidery.",
-    "materials": ["Coarse Unbleached White Cotton Fabric", "Traditional Red & Black Woolen Threads", "Steel Needles", "Pure Beeswax Thread Dressing"],
+    "materials": [
+      "Coarse Unbleached White Cotton Fabric",
+      "Traditional Red & Black Woolen Threads",
+      "Steel Needles",
+      "Pure Beeswax Thread Dressing"
+    ],
     "workshop": {
       "name": "Toda Indigenous Craft Centre",
       "address": "Muthanadu Mund, Near Botanical Gardens Road",
       "district": "Nilgiris",
       "state": "Tamil Nadu",
       "pincode": "643001",
-      "coordinates": { "lat": 11.4102, "lng": 76.6950 },
+      "coordinates": {
+        "lat": 11.4102,
+        "lng": 76.695
+      },
       "visitingHours": "10:00 AM - 05:00 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -1440,7 +1963,7 @@
       "email": "todapukhoor@gmail.com",
       "website": "https://todatribalcraft.org"
     },
-    "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1456,7 +1979,12 @@
         "description": "Counted-thread red and black wool embroidery on coarse ecru cotton"
       }
     ],
-    "productsSummary": ["Ceremonial Poothkuli Shawls", "Toda Stoles & Scarves", "Embroidered Cushion Covers & Bags", "Tribal Table Runners"],
+    "productsSummary": [
+      "Ceremonial Poothkuli Shawls",
+      "Toda Stoles & Scarves",
+      "Embroidered Cushion Covers & Bags",
+      "Tribal Table Runners"
+    ],
     "priceRange": "₹1,500 - ₹48,000",
     "customOrders": true,
     "viewCount": 2640,
@@ -1473,8 +2001,16 @@
     "village": "Pipli",
     "experienceYears": 35,
     "awards": [
-      { "name": "National Merit Award", "year": 2007, "authority": "Ministry of Textiles, Govt. of India" },
-      { "name": "Odisha State Shilpi Award", "year": 2014, "authority": "Govt. of Odisha" }
+      {
+        "name": "National Merit Award",
+        "year": 2007,
+        "authority": "Ministry of Textiles, Govt. of India"
+      },
+      {
+        "name": "Odisha State Shilpi Award",
+        "year": 2014,
+        "authority": "Govt. of Odisha"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Odisha State Co-operative Handicrafts Corporation (Utkalika)",
@@ -1486,14 +2022,22 @@
     },
     "bio": "For centuries, the tailors ('Darjis') of Pipli village on the pilgrim highway to Puri have prepared the massive royal canopies, umbrellas (Chhati), and banners (Trasa) for Lord Jagannath's annual Ratha Yatra festival. Sarat Chandra Mohapatra carries forward this vibrant heritage, stitching cut-out silhouettes of peacocks, elephants, parrots, and lotus medallions onto contrasting fabric backdrops adorned with glass mirrors.",
     "techniques": "Shapes of flowers, birds, and deities are hand-cut from colored cotton fabrics. These motifs are basted onto a heavy contrasting base cloth. Edges are folded under and stitched using fine chain-stitch, buttonhole stitch, or satin stitch with contrasting cotton threads. Circular glass mirrors ('Tarpa') and decorative cord piping are hand-stitched into the center of flower blossoms and eyes of animals to catch the light.",
-    "materials": ["Colorfast Cotton Fabrics", "Glass Mirrors (Tarpa)", "Piping Cords & Cotton Threads", "Bamboo Frame Supports"],
+    "materials": [
+      "Colorfast Cotton Fabrics",
+      "Glass Mirrors (Tarpa)",
+      "Piping Cords & Cotton Threads",
+      "Bamboo Frame Supports"
+    ],
     "workshop": {
       "name": "Mohapatra Pipli Applique Shilpalaya",
       "address": "Main Market Road, Near Pipli Toll Plaza",
       "district": "Puri",
       "state": "Odisha",
       "pincode": "752107",
-      "coordinates": { "lat": 20.1167, "lng": 85.8333 },
+      "coordinates": {
+        "lat": 20.1167,
+        "lng": 85.8333
+      },
       "visitingHours": "09:00 AM - 07:30 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -1503,7 +2047,7 @@
       "email": "piplichandua@gmail.com",
       "website": "https://pipliappliqueodisha.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1582561424760-0321d75e81fa?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1519,7 +2063,12 @@
         "description": "Applique umbrella in red, yellow, and green cotton with mirror embroidery"
       }
     ],
-    "productsSummary": ["Traditional Chandua Canopies", "Garden Umbrellas & Wall Hangings", "Applique Lamp Shades", "Hand-Stitched Bags & Cushion Covers"],
+    "productsSummary": [
+      "Traditional Chandua Canopies",
+      "Garden Umbrellas & Wall Hangings",
+      "Applique Lamp Shades",
+      "Hand-Stitched Bags & Cushion Covers"
+    ],
     "priceRange": "₹400 - ₹38,000",
     "customOrders": true,
     "viewCount": 2780,
@@ -1536,8 +2085,16 @@
     "village": "Maheshwar",
     "experienceYears": 31,
     "awards": [
-      { "name": "Madhya Pradesh State Weaving Award", "year": 2017, "authority": "MP Hastshilp Evam Hathkargha Vikas Nigam" },
-      { "name": "Rehwa Society Master Weaver Honor", "year": 2021, "authority": "Ahilya Fort Trust, Maheshwar" }
+      {
+        "name": "Madhya Pradesh State Weaving Award",
+        "year": 2017,
+        "authority": "MP Hastshilp Evam Hathkargha Vikas Nigam"
+      },
+      {
+        "name": "Rehwa Society Master Weaver Honor",
+        "year": 2021,
+        "authority": "Ahilya Fort Trust, Maheshwar"
+      }
     ],
     "verificationStatus": "Verified",
     "verifiedBy": "Madhya Pradesh Handloom Board & Rehwa Society Partner",
@@ -1549,14 +2106,22 @@
     },
     "bio": "Woven on the serene stone ghats of the Narmada River, Maheshwari handloom was championed in the late 18th century by the legendary philosopher-queen Ahilyabai Holkar. Narmada Bai and Ramesh Bunkar belong to the traditional bunkar community weaving lightweight, lustrous silk-cotton sarees. Their distinguishing hallmark is the reversible border ('Bugdi'), allowing sarees to be draped on either side without losing aesthetic beauty.",
     "techniques": "Woven on traditional pit and frame looms using fine mulberry silk warp (which provides gossamer luster) and delicate Egyptian or cotton weft (which provides softness and breathability in Indian summers). The border patterns—such as 'Chatai' (matting), 'Kangira' (fortress ramparts), and 'Chameli Phool' (jasmine blossom)—are derived directly from the carved stone relief panels of the Maheshwar Fort. Woven with double-sided reversible borders that require meticulous shuttle tracking.",
-    "materials": ["Pure Mulberry Silk Warp", "Fine Count 80s/100s Cotton Weft", "Azo-Free Skin-Safe Dyes", "Traditional Pit Loom Fly Shuttle"],
+    "materials": [
+      "Pure Mulberry Silk Warp",
+      "Fine Count 80s/100s Cotton Weft",
+      "Azo-Free Skin-Safe Dyes",
+      "Traditional Pit Loom Fly Shuttle"
+    ],
     "workshop": {
       "name": "Ahilya Bunkar Handloom Collective",
       "address": "Fort Ghats Weaving Quarter, Near Ahilyeshwar Temple",
       "district": "Khargone",
       "state": "Madhya Pradesh",
       "pincode": "451224",
-      "coordinates": { "lat": 22.1764, "lng": 75.5864 },
+      "coordinates": {
+        "lat": 22.1764,
+        "lng": 75.5864
+      },
       "visitingHours": "09:00 AM - 06:30 PM (Daily)",
       "workshopVisitsAllowed": true
     },
@@ -1566,7 +2131,7 @@
       "email": "maheshwariweaves@gmail.com",
       "website": "https://maheshwarihandloomtrust.in"
     },
-    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+    "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
     "coverImage": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=80",
     "gallery": [
       {
@@ -1582,7 +2147,12 @@
         "description": "Featherweight silk-cotton weave with five-stripe pallu and fine fringe"
       }
     ],
-    "productsSummary": ["Reversible Border Silk-Cotton Sarees", "Maheshwari Dupattas & Stoles", "Running Dress Material Fabrics", "Handwoven Kurta Sets"],
+    "productsSummary": [
+      "Reversible Border Silk-Cotton Sarees",
+      "Maheshwari Dupattas & Stoles",
+      "Running Dress Material Fabrics",
+      "Handwoven Kurta Sets"
+    ],
     "priceRange": "₹1,800 - ₹34,000",
     "customOrders": true,
     "viewCount": 3890,
