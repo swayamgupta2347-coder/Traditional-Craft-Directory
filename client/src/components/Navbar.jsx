@@ -13,11 +13,12 @@ import {
   FileText, 
   MessageSquare, 
   Compass, 
-  Search 
+  Search,
+  Layers
 } from 'lucide-react';
 
 export default function Navbar() {
-  const { favorites, artisans, stats } = useData();
+  const { favorites, artisans, stats, compareList, openCompareModal } = useData();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [favoritesOpen, setFavoritesOpen] = useState(false);
   const location = useLocation();
@@ -40,9 +41,9 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#E7DFCE] shadow-sm">
+    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-amber-300/40 shadow-sm">
       {/* Top Heritage Notice Bar */}
-      <div className="bg-[#1B365D] text-[#FAF7F2] text-xs py-1.5 px-4">
+      <div className="bg-gradient-to-r from-slate-950 via-indigo-950 to-slate-950 text-[#FAF7F2] text-xs py-1.5 px-4 border-b border-amber-400/20">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-[#F3A628] animate-pulse"></span>
@@ -51,11 +52,11 @@ export default function Navbar() {
             </span>
           </div>
           <div className="hidden md:flex items-center gap-4 text-[#E7DFCE]">
-            <span>Middleman Commission: <strong className="text-[#F3A628]">0%</strong></span>
+            <span>Middleman Commission: <strong className="text-amber-400 font-bold">0%</strong></span>
             <span>•</span>
-            <span>Verified Masters: <strong className="text-white">{stats.verifiedArtisans}</strong></span>
+            <span>Verified Masters: <strong className="text-white font-bold">{stats.verifiedArtisans}</strong></span>
             <span>•</span>
-            <span>States: <strong className="text-white">{stats.uniqueStates}</strong></span>
+            <span>States: <strong className="text-white font-bold">{stats.uniqueStates}</strong></span>
           </div>
         </div>
       </div>
@@ -113,6 +114,22 @@ export default function Navbar() {
 
           {/* Action CTAs */}
           <div className="flex items-center gap-3">
+            {/* Compare Quick Action */}
+            {compareList.length > 0 && (
+              <button
+                type="button"
+                onClick={openCompareModal}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 text-xs font-bold shadow-md transition-all animate-bounce"
+                title="View side-by-side artisan comparison matrix"
+              >
+                <Layers className="w-3.5 h-3.5 text-slate-950" />
+                <span className="hidden sm:inline">Compare</span>
+                <span className="w-4 h-4 rounded-full bg-slate-950 text-amber-300 text-[10px] font-black flex items-center justify-center">
+                  {compareList.length}
+                </span>
+              </button>
+            )}
+
             {/* Favorites Dropdown Toggle */}
             <div className="relative">
               <button

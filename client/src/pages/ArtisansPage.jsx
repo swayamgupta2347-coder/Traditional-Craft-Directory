@@ -15,11 +15,20 @@ import {
   Sparkles,
   SlidersHorizontal,
   ChevronRight,
-  Phone
+  Phone,
+  Layers
 } from 'lucide-react';
 
 export default function ArtisansPage() {
-  const { artisans, favorites, toggleFavorite, openInquiryModal } = useData();
+  const { 
+    artisans, 
+    favorites, 
+    toggleFavorite, 
+    openInquiryModal,
+    compareList,
+    toggleCompare,
+    openCompareModal
+  } = useData();
   const [searchParams, setSearchParams] = useSearchParams();
 
   // Search and Filter State synced with URL query params
@@ -167,6 +176,62 @@ export default function ArtisansPage() {
           </button>
         </div>
       </div>
+
+      {/* Quick Interactive Category Pill Bar */}
+      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+        <span className="text-xs font-bold uppercase tracking-wider text-slate-500 shrink-0">Craft Focus:</span>
+        {[
+          { name: 'All' },
+          { name: 'Textiles & Weaving' },
+          { name: 'Pottery & Terracotta' },
+          { name: 'Metalcraft & Dhokra' },
+          { name: 'Painting & Folk Art' },
+          { name: 'Woodcraft & Inlay' },
+          { name: 'Jewelry & Filigree' }
+        ].map((item) => {
+          const isSelected = selectedCategory === item.name;
+          return (
+            <button
+              key={item.name}
+              type="button"
+              onClick={() => setSelectedCategory(item.name)}
+              className={`px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap border transition-all ${
+                isSelected
+                  ? 'bg-gradient-to-r from-amber-500 to-rose-600 text-white border-amber-300 shadow-md font-semibold scale-105'
+                  : 'bg-white text-slate-700 border-slate-200 hover:border-amber-400 hover:text-amber-800'
+              }`}
+            >
+              {item.name}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Dynamic Active Compare Banner */}
+      {compareList.length > 0 && (
+        <div className="p-4 rounded-2xl bg-gradient-to-r from-indigo-950 via-slate-900 to-rose-950 text-white border border-amber-400/40 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-3 animate-fadeIn">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-amber-400/20 border border-amber-400/40 flex items-center justify-center text-amber-300">
+              <Layers className="w-5 h-5" />
+            </div>
+            <div>
+              <p className="text-sm font-bold text-amber-300">
+                Artisan Comparison Dock ({compareList.length} of 3 masters queued)
+              </p>
+              <p className="text-xs text-slate-300">
+                Side-by-side analysis of experience, awards, GI certification, and direct contact options.
+              </p>
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={openCompareModal}
+            className="px-4 py-2 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 text-xs font-bold hover:brightness-110 shadow-md transition-transform active:scale-95 shrink-0"
+          >
+            Launch Comparison Matrix →
+          </button>
+        </div>
+      )}
 
       {/* Main Layout: Filters Sidebar + Listings Grid */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -365,49 +430,85 @@ export default function ArtisansPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredArtisans.map((artisan) => {
                 const isFav = favorites.includes(artisan.id);
+                const isCompared = compareList.includes(artisan.id);
+                const award = artisan.awards?.[0];
+                const isPadma = award?.name?.toLowerCase().includes('padma');
+                const isGuru = award?.name?.toLowerCase().includes('shilp guru');
+
                 return (
                   <div
                     key={artisan.id}
-                    className="bg-white rounded-2xl border border-[#E7DFCE] shadow-sm hover:shadow-lg transition-all overflow-hidden flex flex-col group"
+                    className="bg-white rounded-2xl border border-amber-200/60 shadow-sm hover:shadow-xl hover:border-amber-400/80 transition-all duration-300 overflow-hidden flex flex-col group"
                   >
                     {/* Header Image */}
-                    <div className="relative h-44 overflow-hidden bg-gray-100">
+                    <div className="relative h-48 overflow-hidden bg-slate-900">
                       <img
                         src={artisan.coverImage}
                         alt={artisan.craftSubtype}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
+                      <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
 
-                      {/* Favorite Button */}
-                      <button
-                        onClick={() => toggleFavorite(artisan.id)}
-                        className="absolute top-2.5 right-2.5 w-8 h-8 rounded-full bg-white/90 text-gray-600 hover:text-[#C85A32] flex items-center justify-center shadow transition-colors"
-                      >
-                        <Heart className={`w-4 h-4 ${isFav ? 'text-[#C85A32] fill-current' : ''}`} />
-                      </button>
-
-                      {/* Verification Badge */}
-                      {artisan.verificationStatus === 'Verified' && (
-                        <div className="absolute top-2.5 left-2.5 px-2 py-0.5 rounded bg-emerald-600/90 text-white text-[10px] font-semibold flex items-center gap-1 shadow">
-                          <ShieldCheck className="w-3 h-3" />
-                          <span>Verified</span>
+                      {/* Top Badges & Controls */}
+                      <div className="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between gap-1.5 z-10">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          {artisan.verificationStatus === 'Verified' && (
+                            <div className="px-2 py-0.5 rounded-full bg-emerald-700/90 text-white text-[10px] font-semibold flex items-center gap-1 backdrop-blur-sm shadow">
+                              <ShieldCheck className="w-3 h-3 text-emerald-300" />
+                              <span>Verified Master</span>
+                            </div>
+                          )}
+                          {artisan.giTag && (
+                            <span className="px-2 py-0.5 rounded-full bg-indigo-900/90 text-indigo-200 text-[10px] font-semibold border border-indigo-400/40 backdrop-blur-sm shadow">
+                              GI #{artisan.giTag.number}
+                            </span>
+                          )}
                         </div>
-                      )}
+
+                        <div className="flex items-center gap-1.5">
+                          {/* Compare Toggle */}
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              toggleCompare(artisan.id);
+                            }}
+                            className={`px-2 py-1 rounded-lg text-[10px] font-bold flex items-center gap-1 backdrop-blur-md shadow transition-all ${
+                              isCompared
+                                ? 'bg-amber-400 text-slate-950 border border-amber-300 shadow-amber-500/30'
+                                : 'bg-black/50 text-white hover:bg-black/80 border border-white/20'
+                            }`}
+                            title={isCompared ? 'Remove from Compare' : 'Add to Compare matrix'}
+                          >
+                            <Layers className="w-3 h-3 text-amber-300" />
+                            <span>{isCompared ? 'Comparing' : 'Compare'}</span>
+                          </button>
+
+                          {/* Favorite Button */}
+                          <button
+                            type="button"
+                            onClick={() => toggleFavorite(artisan.id)}
+                            className="w-7 h-7 rounded-lg bg-black/50 hover:bg-black/80 text-white flex items-center justify-center backdrop-blur-md border border-white/20 shadow transition-colors"
+                          >
+                            <Heart className={`w-3.5 h-3.5 ${isFav ? 'text-rose-500 fill-current' : ''}`} />
+                          </button>
+                        </div>
+                      </div>
 
                       {/* Mini Avatar & Identity */}
-                      <div className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center gap-2.5">
+                      <div className="absolute bottom-3 left-3 right-3 flex items-center gap-3">
                         <img
                           src={artisan.profileImage}
                           alt={artisan.name}
-                          className="w-11 h-11 rounded-full object-cover border-2 border-white shadow-md shrink-0"
+                          className="w-12 h-12 rounded-full object-cover border-2 border-amber-300 shadow-lg shrink-0"
                         />
                         <div className="min-w-0 text-white">
-                          <h3 className="font-heritage font-bold text-sm truncate">
+                          <h3 className="font-heritage font-bold text-base truncate drop-shadow-sm">
                             {artisan.name}
                           </h3>
-                          <p className="text-[11px] text-gray-200 truncate flex items-center gap-1">
-                            <MapPin className="w-3 h-3 text-[#F3A628]" />
+                          <p className="text-[11px] text-amber-200 truncate flex items-center gap-1 font-medium">
+                            <MapPin className="w-3 h-3 text-amber-400" />
                             {artisan.village}, {artisan.state}
                           </p>
                         </div>
@@ -415,42 +516,51 @@ export default function ArtisansPage() {
                     </div>
 
                     {/* Card Content */}
-                    <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
-                      <div className="space-y-1.5">
+                    <div className="p-4 flex-1 flex flex-col justify-between space-y-3 bg-gradient-to-b from-white to-[#FAF6EF]">
+                      <div className="space-y-2">
                         <div className="flex items-center justify-between text-xs">
-                          <span className="font-semibold text-[#C85A32]">
+                          <span className="font-bold text-[#C85A32] tracking-wide">
                             {artisan.craftSubtype}
                           </span>
-                          <span className="text-gray-500 text-[11px]">
-                            {artisan.experienceYears} yrs exp
+                          <span className="px-2 py-0.5 rounded-full bg-slate-100 text-slate-700 text-[10px] font-semibold border border-slate-200">
+                            {artisan.experienceYears}+ yrs master
                           </span>
                         </div>
 
-                        <p className="text-xs text-gray-600 line-clamp-2 leading-relaxed">
+                        <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
                           {artisan.bio}
                         </p>
 
-                        {/* Awards tag */}
-                        {artisan.awards?.length > 0 && (
-                          <div className="flex items-center gap-1 pt-1 text-[11px] text-[#1B365D] font-medium truncate">
-                            <Award className="w-3.5 h-3.5 text-[#F3A628] shrink-0" />
-                            <span className="truncate">{artisan.awards[0].name} ({artisan.awards[0].year})</span>
+                        {/* Rich Awards Badge */}
+                        {award && (
+                          <div className="pt-1">
+                            <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[10px] font-bold border ${
+                              isPadma 
+                                ? 'bg-rose-50 text-rose-900 border-rose-300' 
+                                : isGuru 
+                                ? 'bg-amber-50 text-amber-950 border-amber-300' 
+                                : 'bg-indigo-50 text-indigo-950 border-indigo-200'
+                            }`}>
+                              <Award className={`w-3.5 h-3.5 shrink-0 ${isPadma ? 'text-rose-600' : isGuru ? 'text-amber-600' : 'text-indigo-600'}`} />
+                              <span className="truncate">{award.name} ({award.year})</span>
+                            </span>
                           </div>
                         )}
                       </div>
 
                       {/* Direct Actions */}
-                      <div className="pt-3 border-t border-[#F2ECE1] flex items-center justify-between gap-2">
+                      <div className="pt-3 border-t border-amber-100 flex items-center justify-between gap-2">
                         <Link
                           to={`/artisans/${artisan.id}`}
-                          className="text-xs font-semibold text-[#1B365D] hover:text-[#C85A32] transition-colors"
+                          className="text-xs font-bold text-[#1B365D] hover:text-[#C85A32] transition-colors"
                         >
-                          Dossier →
+                          Full Dossier →
                         </Link>
 
                         <button
+                          type="button"
                           onClick={() => openInquiryModal(artisan)}
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#FAF6EF] text-[#C85A32] hover:bg-[#C85A32] hover:text-white border border-[#C85A32]/30 text-xs font-medium transition-colors"
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-[#C85A32] to-[#B33925] text-white hover:brightness-110 text-xs font-semibold shadow-xs transition-transform active:scale-95"
                         >
                           <MessageCircle className="w-3.5 h-3.5" />
                           <span>Direct Connect</span>
@@ -466,18 +576,23 @@ export default function ArtisansPage() {
             <div className="space-y-4">
               {filteredArtisans.map((artisan) => {
                 const isFav = favorites.includes(artisan.id);
+                const isCompared = compareList.includes(artisan.id);
+                const award = artisan.awards?.[0];
+                const isPadma = award?.name?.toLowerCase().includes('padma');
+                const isGuru = award?.name?.toLowerCase().includes('shilp guru');
+
                 return (
                   <div
                     key={artisan.id}
-                    className="p-4 bg-white rounded-2xl border border-[#E7DFCE] shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row items-start sm:items-center gap-4 group"
+                    className="p-4 bg-white rounded-2xl border border-amber-200/60 shadow-sm hover:shadow-md hover:border-amber-400/70 transition-all flex flex-col sm:flex-row items-start sm:items-center gap-4 group"
                   >
                     <img
                       src={artisan.profileImage}
                       alt={artisan.name}
-                      className="w-16 h-16 rounded-full object-cover border-2 border-[#E7DFCE] shrink-0"
+                      className="w-16 h-16 rounded-full object-cover border-2 border-amber-300 shadow-sm shrink-0"
                     />
 
-                    <div className="flex-1 min-w-0 space-y-1">
+                    <div className="flex-1 min-w-0 space-y-1.5">
                       <div className="flex flex-wrap items-center gap-2">
                         <Link
                           to={`/artisans/${artisan.id}`}
@@ -486,20 +601,27 @@ export default function ArtisansPage() {
                           {artisan.name}
                         </Link>
                         {artisan.verificationStatus === 'Verified' && (
-                          <span className="inline-flex items-center gap-0.5 text-[10px] px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 font-semibold border border-emerald-200">
-                            <ShieldCheck className="w-3 h-3" />
-                            Verified
+                          <span className="inline-flex items-center gap-0.5 text-[10px] px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 font-bold border border-emerald-300">
+                            <ShieldCheck className="w-3 h-3 text-emerald-600" />
+                            Verified Master
                           </span>
                         )}
                         {artisan.giTag && (
-                          <span className="text-[10px] px-2 py-0.5 rounded bg-blue-50 text-blue-700 font-medium border border-blue-200">
-                            GI: {artisan.giTag.number}
+                          <span className="text-[10px] px-2 py-0.5 rounded bg-blue-50 text-blue-800 font-semibold border border-blue-200">
+                            GI #{artisan.giTag.number}
+                          </span>
+                        )}
+                        {award && (
+                          <span className={`text-[10px] px-2 py-0.5 rounded font-bold border ${
+                            isPadma ? 'bg-rose-50 text-rose-800 border-rose-300' : isGuru ? 'bg-amber-50 text-amber-900 border-amber-300' : 'bg-indigo-50 text-indigo-800 border-indigo-200'
+                          }`}>
+                            {award.name}
                           </span>
                         )}
                       </div>
 
-                      <p className="text-xs text-gray-500 flex items-center gap-2">
-                        <span className="font-semibold text-[#C85A32]">{artisan.craftSubtype}</span>
+                      <p className="text-xs text-gray-500 flex items-center gap-2 flex-wrap">
+                        <span className="font-bold text-[#C85A32]">{artisan.craftSubtype}</span>
                         <span>•</span>
                         <span>{artisan.village}, {artisan.state}</span>
                         <span>•</span>
@@ -513,6 +635,24 @@ export default function ArtisansPage() {
 
                     <div className="flex items-center gap-2 self-end sm:self-center shrink-0">
                       <button
+                        type="button"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          toggleCompare(artisan.id);
+                        }}
+                        className={`px-2.5 py-1.5 rounded-lg text-xs font-bold border flex items-center gap-1 transition-all ${
+                          isCompared
+                            ? 'bg-amber-400 text-slate-950 border-amber-300 shadow-sm'
+                            : 'bg-slate-50 text-slate-700 hover:bg-slate-100 border-slate-200'
+                        }`}
+                        title={isCompared ? 'Remove from Compare' : 'Add to Compare matrix'}
+                      >
+                        <Layers className="w-3.5 h-3.5 text-amber-600" />
+                        <span>{isCompared ? 'Comparing' : 'Compare'}</span>
+                      </button>
+
+                      <button
+                        type="button"
                         onClick={() => toggleFavorite(artisan.id)}
                         className="p-2 rounded-lg text-gray-400 hover:text-[#C85A32] hover:bg-[#FAF6EF]"
                       >
@@ -523,15 +663,16 @@ export default function ArtisansPage() {
                         to={`/artisans/${artisan.id}`}
                         className="px-3 py-1.5 rounded-lg border border-gray-300 text-xs font-semibold text-gray-700 hover:border-[#C85A32] hover:text-[#C85A32]"
                       >
-                        View Profile
+                        Profile
                       </Link>
 
                       <button
+                        type="button"
                         onClick={() => openInquiryModal(artisan)}
-                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#C85A32] text-white text-xs font-semibold hover:bg-[#B33925] shadow-xs"
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-[#C85A32] to-[#B33925] text-white text-xs font-semibold hover:brightness-110 shadow-xs"
                       >
                         <MessageCircle className="w-3.5 h-3.5" />
-                        <span>Direct Connect</span>
+                        <span>Connect</span>
                       </button>
                     </div>
                   </div>

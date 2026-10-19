@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import DirectInquiryModal from './components/DirectInquiryModal';
 import ToastNotification from './components/ToastNotification';
+import ArtisanCompareModal from './components/ArtisanCompareModal';
+import SoundscapePlayer from './components/SoundscapePlayer';
 
 import HomePage from './pages/HomePage';
 import ArtisansPage from './pages/ArtisansPage';
@@ -53,6 +55,8 @@ export default function App() {
 
           <Footer />
           <DirectInquiryModal />
+          <ArtisanCompareModal />
+          <SoundscapePlayer />
           <ToastNotification />
         </div>
       </BrowserRouter>

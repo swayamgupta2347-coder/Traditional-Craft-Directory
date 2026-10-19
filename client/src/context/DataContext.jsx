@@ -66,8 +66,30 @@ export const DataProvider = ({ children }) => {
   // Modal State for Direct Contact / Inquiry
   const [inquiryModalArtisan, setInquiryModalArtisan] = useState(null);
   const [toastMessage, setToastMessage] = useState(null);
+  
+  // Interactive Artisan Comparison State
+  const [compareList, setCompareList] = useState([]);
+  const [isCompareModalOpen, setIsCompareModalOpen] = useState(false);
 
-  // Sync to LocalStorage on changes
+  const toggleCompare = (id) => {
+    setCompareList(prev => {
+      if (prev.includes(id)) {
+        showToast('Removed from comparison list', 'info');
+        return prev.filter(item => item !== id);
+      }
+      if (prev.length >= 3) {
+        showToast('You can compare up to 3 artisans simultaneously', 'warning');
+        return prev;
+      }
+      showToast('Added to comparison bar! Click Compare to view side-by-side', 'success');
+      return [...prev, id];
+    });
+  };
+
+  const clearCompare = () => {
+    setCompareList([]);
+    setIsCompareModalOpen(false);
+  };
   useEffect(() => {
     try {
       localStorage.setItem('tcd_artisans', JSON.stringify(artisans));
@@ -356,6 +378,12 @@ export const DataProvider = ({ children }) => {
         stats,
         toastMessage,
         inquiryModalArtisan,
+        compareList,
+        isCompareModalOpen,
+        toggleCompare,
+        clearCompare,
+        openCompareModal: () => setIsCompareModalOpen(true),
+        closeCompareModal: () => setIsCompareModalOpen(false),
         toggleFavorite,
         recordArtisanView,
         submitInquiry,
