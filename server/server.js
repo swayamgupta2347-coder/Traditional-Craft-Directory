@@ -551,7 +551,10 @@ app.get('/api/stats', (req, res) => {
 });
 
 // Serve frontend in production
-const CLIENT_DIST = path.join(__dirname, '..', 'client', 'dist');
+const CLIENT_DIST = fs.existsSync(path.join(__dirname, 'public'))
+  ? path.join(__dirname, 'public')
+  : path.join(__dirname, '..', 'client', 'dist');
+
 if (fs.existsSync(CLIENT_DIST)) {
   app.use(express.static(CLIENT_DIST));
   app.get('*', (req, res) => {
